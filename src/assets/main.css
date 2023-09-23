@@ -1,0 +1,45 @@
+@font-face {
+  font-family: Metropolis;
+  src: url(./fonts/metropolis.regular.otf);
+}
+
+html {
+  scroll-behavior: smooth;
+  background-size: 300% 300%;
+  background-image: radial-gradient(circle at center, red 0, blue, green 100%);
+  animation: AnimateBG 15s ease infinite;
+}
+body {
+  backdrop-filter: blur(25px);
+  background-color: rgba(255, 255, 255, 0.3);
+  color: white;
+  margin: 0;
+  font-family: Metropolis, Helvetica, sans-serif;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@keyframes AnimateBG {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+#app {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+*::-webkit-scrollbar {
+  display: none;
+}
