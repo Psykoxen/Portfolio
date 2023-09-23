@@ -57,9 +57,9 @@ nav ul li {
 <template>
   <nav>
     <ul>
-      <li @click="toggleHome" id="home_link">Menu</li>
-      <li @click="toggleSkills" id="skills_link">Compétences</li>
-      <li @click="toggleAbout" id="about_link">A propos</li>
+      <li @click="toggleHome" id="home_link">Home</li>
+      <li @click="toggleSkills" id="skills_link">Skills</li>
+      <li @click="toggleAbout" id="about_link">About me</li>
     </ul>
 
     <!-- <div id="shadow" :style="shadowStyles"></div> -->
