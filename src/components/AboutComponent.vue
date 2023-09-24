@@ -167,14 +167,6 @@
   </div>
 
   <div id="timeline">
-    <div class="timeline__component">
-      <div class="timeline__date timeline__date--right">
-        Février 2023 à Aujourd'hui
-      </div>
-    </div>
-    <div class="timeline__middle">
-      <div class="timeline__point"></div>
-    </div>
     <div class="timeline__component timeline__component--bg">
       <div class="timeline__header">
         <img
@@ -192,6 +184,15 @@
         radios, les relais radio et d'autres moyens de communication et de
         commandement.
       </p>
+    </div>
+
+    <div class="timeline__middle">
+      <div class="timeline__point"></div>
+    </div>
+    <div class="timeline__component">
+      <div class="timeline__date timeline__date--left">
+        Février 2023 à Septembre 2023
+      </div>
     </div>
     <div class="timeline__component">
       <div class="timeline__date timeline__date--right">
@@ -351,6 +352,10 @@
       </p>
     </div>
   </div>
+
+  <TimelineComponent />
 </template>
 
-<script setup></script>
+<script setup>
+import TimelineComponent from "./TimelineComponent.vue";
+</script>
