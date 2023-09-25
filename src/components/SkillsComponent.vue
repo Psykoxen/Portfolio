@@ -246,13 +246,18 @@
 </template>
 
 <script setup>
-const buttons = document.getElementsByClassName("card-wrap");
+import { onMounted, ref } from "vue";
 
-for (let i = 0; i < buttons.length; i++) {
-  buttons[i].addEventListener("click", (event) => {
-    buttons[i].classList.toggle("card-wrap--active");
-  });
-}
+onMounted(() => {
+  const buttons = document.getElementsByClassName("card-wrap");
+
+  for (let i = 0; i < buttons.length; i++) {
+    buttons[i].addEventListener("click", (event) => {
+      console.log("click");
+      buttons[i].classList.toggle("card-wrap--active");
+    });
+  }
+});
 </script>
 
 <style scoped>
