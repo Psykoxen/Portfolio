@@ -1,42 +1,78 @@
 <template>
   <div class="timeline-container">
+    <svg
+      class="timeline-exit"
+      width="75"
+      viewBox="0 0 1270 322"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <circle cx="635" cy="161" r="161" fill="#E6BE21" />
+      <circle cx="1109" cy="161" r="161" fill="#2FB449" />
+      <circle cx="161" cy="161" r="161" fill="#E73130" />
+    </svg>
+    <h2>Expériences & Formations</h2>
     <ol class="timeline">
       <li class="timeline-item">
         <span class="timeline-item-icon | avatar-icon">
           <i class="avatar">
-            <img src="https://assets.codepen.io/285131/hat-man.png" />
+            <img src="../assets/image//me.jpg" />
           </i>
         </span>
         <div class="new-comment">
-          <input type="text" placeholder="Add a comment..." />
+          <input
+            type="text"
+            placeholder="What we will be the next challenge ?"
+            disabled
+          />
         </div>
       </li>
+
       <li class="timeline-item">
         <span class="timeline-item-icon | faded-icon">
           <svg
-            xmlns="http://www.w3.org/2000/svg"
+            width="800px"
+            height="800px"
             viewBox="0 0 24 24"
-            width="24"
-            height="24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
           >
-            <path fill="none" d="M0 0h24v24H0z" />
             <path
-              fill="currentColor"
-              d="M12.9 6.858l4.242 4.243L7.242 21H3v-4.243l9.9-9.9zm1.414-1.414l2.121-2.122a1 1 0 0 1 1.414 0l2.829 2.829a1 1 0 0 1 0 1.414l-2.122 2.121-4.242-4.242z"
+              d="M3.09155 6.63659L9.78267 3.49965C11.2037 2.83345 12.7961 2.83345 14.2171 3.49965L20.9083 6.63664C22.3638 7.31899 22.3638 9.68105 20.9083 10.3634L14.2172 13.5003C12.7962 14.1665 11.2038 14.1665 9.78275 13.5003L4.99995 11.2581"
+              stroke="currentColor"
+              stroke-width="1.5"
+              stroke-linecap="round"
+            />
+            <path
+              d="M2.5 15V12.1376C2.5 10.8584 2.5 10.2188 2.83032 9.71781C3.16064 9.21687 3.74853 8.96492 4.92432 8.461L6 8"
+              stroke="currentColor"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+            <path
+              d="M19 11.5V16.6254C19 17.6334 18.4965 18.5772 17.6147 19.0656C16.1463 19.8787 13.796 21 12 21C10.204 21 7.8537 19.8787 6.38533 19.0656C5.5035 18.5772 5 17.6334 5 16.6254V11.5"
+              stroke="currentColor"
+              stroke-width="1.5"
+              stroke-linecap="round"
             />
           </svg>
         </span>
         <div class="timeline-item-description">
           <i class="avatar | small">
-            <img src="https://assets.codepen.io/285131/winking-girl.png" />
+            <img src="../assets/image/ets.png" alt="ETS" />
           </i>
           <span
-            ><a href="#">Luna Bonifacio</a> has changed
-            <a href="#">2 attributes</a> on
-            <time datetime="21-01-2021">Jan 21, 2021</time></span
+            ><a href="#">Antoine</a> a commencé à étudier en
+            <a href="#">Baccalauréat Génie Logiciel</a> à
+            <a href="#">ETS Montréal</a>
+            en
+
+            <time datetime="21-01-2021">Septembre, 2023</time></span
           >
         </div>
       </li>
+
       <li class="timeline-item">
         <span class="timeline-item-icon | faded-icon">
           <svg
@@ -46,9 +82,119 @@
             height="24"
           >
             <path fill="none" d="M0 0h24v24H0z" />
+            <path fill="currentColor" d="M12 13H4v-2h8V4l8 8-8 8z" />
+          </svg>
+        </span>
+        <div class="timeline-item-description">
+          <span
+            ><a href="#">Antoine</a> a déménagé à Montréal en
+            <time datetime="21-01-2021">Août, 2023</time></span
+          >
+        </div>
+      </li>
+      <li class="timeline-item">
+        <span class="timeline-item-icon | faded-icon">
+          <svg
+            width="800px"
+            height="800px"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
             <path
+              d="M4 12H3V8C3 6.89543 3.89543 6 5 6H9M4 12V18C4 19.1046 4.89543 20 6 20H18C19.1046 20 20 19.1046 20 18V12M4 12H10M20 12H21V8C21 6.89543 20.1046 6 19 6H15M20 12H14M14 12V10H10V12M14 12V14H10V12M9 6V5C9 3.89543 9.89543 3 11 3H13C14.1046 3 15 3.89543 15 5V6M9 6H15"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </span>
+        <div class="timeline-item-wrapper">
+          <div class="timeline-item-description">
+            <i class="avatar | small">
+              <img src="../assets/image/sdis.svg" />
+            </i>
+            <span
+              ><a href="#">Antoine</a> a travaillé en tant que
+              <a href="#">Sapeur Pompier - Nageur Sauveteur et Chef de Poste</a>
+              au sein du <a href="#">SDIS 34</a> de
+              <time datetime="21-01-2021">Juillet à Août, 2023</time></span
+            >
+          </div>
+          <div class="comment">
+            <p>
+              En qualité de chef de poste, assurer la surveillance de la plage,
+              repérer les baigneurs en difficulté et intervenir en cas de
+              besoin. Également délimiter les zones de baignade et veiller au
+              respect des règles de sécurité. Veiller également à la sécurité
+              d'intervention des canadairs à proximité des zones de baignades.
+            </p>
+          </div>
+        </div>
+      </li>
+
+      <li class="timeline-item">
+        <span class="timeline-item-icon | faded-icon">
+          <svg
+            width="800px"
+            height="800px"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M4 12H3V8C3 6.89543 3.89543 6 5 6H9M4 12V18C4 19.1046 4.89543 20 6 20H18C19.1046 20 20 19.1046 20 18V12M4 12H10M20 12H21V8C21 6.89543 20.1046 6 19 6H15M20 12H14M14 12V10H10V12M14 12V14H10V12M9 6V5C9 3.89543 9.89543 3 11 3H13C14.1046 3 15 3.89543 15 5V6M9 6H15"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </span>
+        <div class="timeline-item-description">
+          <i class="avatar | small">
+            <img src="../assets/image/anap.svg" alt="anap" />
+          </i>
+          <span
+            ><a href="#">Antoine</a> a terminé son stage de
+            <a href="#">développeur fullstack salesforce</a> l'<a href="#"
+              >ANAP</a
+            >
+            en
+
+            <time datetime="21-01-2021">Juin, 2023</time></span
+          >
+        </div>
+      </li>
+      <li class="timeline-item">
+        <span class="timeline-item-icon | faded-icon">
+          <svg
+            width="32"
+            height="32"
+            viewBox="0 0 32 32"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M8.81009 18.2778C9.20895 18.2778 9.53229 18.6012 9.53229 19V22.03C9.53229 25.8612 12.6389 28.9678 16.4701 28.9678C20.3012 28.9678 23.4079 25.8612 23.4079 22.03V19C23.4079 18.6012 23.7312 18.2778 24.1301 18.2778C24.5289 18.2778 24.8523 18.6012 24.8523 19V22.03C24.8523 26.6589 21.0989 30.4122 16.4701 30.4122C11.8412 30.4122 8.08789 26.6589 8.08789 22.03V19C8.08789 18.6012 8.41123 18.2778 8.81009 18.2778Z"
               fill="currentColor"
-              d="M12.9 6.858l4.242 4.243L7.242 21H3v-4.243l9.9-9.9zm1.414-1.414l2.121-2.122a1 1 0 0 1 1.414 0l2.829 2.829a1 1 0 0 1 0 1.414l-2.122 2.121-4.242-4.242z"
+            />
+            <path
+              d="M20.3102 4.90002H12.6302C9.05016 4.90002 6.16016 7.80003 6.16016 11.37V17.05H26.7902V11.37C26.7802 7.80003 23.8802 4.90002 20.3102 4.90002Z"
+              fill="currentColor"
+            />
+            <path
+              d="M18.0101 3H14.9401C13.1001 3 11.6001 4.49 11.6001 6.34V17.06H21.3401V6.34C21.3401 4.5 19.8501 3 18.0101 3Z"
+              fill="currentColor"
+            />
+            <path
+              d="M18.6803 9.4101H17.7103V8.44009C17.7103 7.76009 17.1603 7.21008 16.4803 7.21008C15.8003 7.21008 15.2503 7.76009 15.2503 8.44009V9.4101H14.2803C13.6003 9.4101 13.0503 9.96008 13.0503 10.6401C13.0503 11.3201 13.6003 11.8701 14.2803 11.8701H15.2503V12.8401C15.2503 13.5201 15.8003 14.0701 16.4803 14.0701C17.1603 14.0701 17.7103 13.5201 17.7103 12.8401V11.8701H18.6803C19.3603 11.8701 19.9103 11.3201 19.9103 10.6401C19.9103 9.97008 19.3603 9.4101 18.6803 9.4101Z"
+              fill="#f4f6f8"
+            />
+            <path
+              d="M26.84 16.0601H6.09C4.94 16.0601 4 17.0001 4 18.1501C4 19.3001 4.94 20.2401 6.09 20.2401H26.84C27.99 20.2401 28.93 19.3001 28.93 18.1501C28.93 16.9901 28 16.0601 26.84 16.0601Z"
+              fill="currentColor"
             />
           </svg>
         </span>
@@ -57,9 +203,345 @@
             <img src="../assets/image/crf.svg" alt="crf" />
           </i>
           <span
-            ><a href="#">Luna Bonifacio</a> has changed
-            <a href="#">2 attributes</a> on
-            <time datetime="21-01-2021">Jan 21, 2021</time></span
+            ><a href="#">Antoine</a> est devenu
+            <a href="#">Directeur Local Adjoint aux missions de secours</a>
+            au sein de la <a href="#">Croix Rouge Française</a> en
+            <time datetime="21-01-2021">Juin, 2023</time></span
+          >
+        </div>
+      </li>
+      <li class="timeline-item">
+        <span class="timeline-item-icon | faded-icon">
+          <svg
+            width="800px"
+            height="800px"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M4 12H3V8C3 6.89543 3.89543 6 5 6H9M4 12V18C4 19.1046 4.89543 20 6 20H18C19.1046 20 20 19.1046 20 18V12M4 12H10M20 12H21V8C21 6.89543 20.1046 6 19 6H15M20 12H14M14 12V10H10V12M14 12V14H10V12M9 6V5C9 3.89543 9.89543 3 11 3H13C14.1046 3 15 3.89543 15 5V6M9 6H15"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </span>
+        <div class="timeline-item-description">
+          <i class="avatar | small">
+            <img src="../assets/image/anap.svg" alt="anap" />
+          </i>
+          <span
+            ><a href="#">Antoine</a> a intégré comme
+            <a href="#">développeur fullstack salesforce</a> l'<a href="#"
+              >ANAP</a
+            >
+            en
+
+            <time datetime="21-01-2021">Avril, 2023</time></span
+          >
+        </div>
+      </li>
+      <li class="timeline-item">
+        <span class="timeline-item-icon | faded-icon">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            width="24"
+            height="24"
+          >
+            <path fill="none" d="M0 0h24v24H0z" />
+            <path fill="currentColor" d="M12 13H4v-2h8V4l8 8-8 8z" />
+          </svg>
+        </span>
+        <div class="timeline-item-description">
+          <span
+            ><a href="#">Antoine</a> a déménagé à Paris en
+            <time datetime="21-01-2021">Avril, 2023</time></span
+          >
+        </div>
+      </li>
+      <li class="timeline-item">
+        <span class="timeline-item-icon | faded-icon">
+          <svg
+            width="32"
+            height="32"
+            viewBox="0 0 32 32"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M8.81009 18.2778C9.20895 18.2778 9.53229 18.6012 9.53229 19V22.03C9.53229 25.8612 12.6389 28.9678 16.4701 28.9678C20.3012 28.9678 23.4079 25.8612 23.4079 22.03V19C23.4079 18.6012 23.7312 18.2778 24.1301 18.2778C24.5289 18.2778 24.8523 18.6012 24.8523 19V22.03C24.8523 26.6589 21.0989 30.4122 16.4701 30.4122C11.8412 30.4122 8.08789 26.6589 8.08789 22.03V19C8.08789 18.6012 8.41123 18.2778 8.81009 18.2778Z"
+              fill="currentColor"
+            />
+            <path
+              d="M20.3102 4.90002H12.6302C9.05016 4.90002 6.16016 7.80003 6.16016 11.37V17.05H26.7902V11.37C26.7802 7.80003 23.8802 4.90002 20.3102 4.90002Z"
+              fill="currentColor"
+            />
+            <path
+              d="M18.0101 3H14.9401C13.1001 3 11.6001 4.49 11.6001 6.34V17.06H21.3401V6.34C21.3401 4.5 19.8501 3 18.0101 3Z"
+              fill="currentColor"
+            />
+            <path
+              d="M18.6803 9.4101H17.7103V8.44009C17.7103 7.76009 17.1603 7.21008 16.4803 7.21008C15.8003 7.21008 15.2503 7.76009 15.2503 8.44009V9.4101H14.2803C13.6003 9.4101 13.0503 9.96008 13.0503 10.6401C13.0503 11.3201 13.6003 11.8701 14.2803 11.8701H15.2503V12.8401C15.2503 13.5201 15.8003 14.0701 16.4803 14.0701C17.1603 14.0701 17.7103 13.5201 17.7103 12.8401V11.8701H18.6803C19.3603 11.8701 19.9103 11.3201 19.9103 10.6401C19.9103 9.97008 19.3603 9.4101 18.6803 9.4101Z"
+              fill="#f4f6f8"
+            />
+            <path
+              d="M26.84 16.0601H6.09C4.94 16.0601 4 17.0001 4 18.1501C4 19.3001 4.94 20.2401 6.09 20.2401H26.84C27.99 20.2401 28.93 19.3001 28.93 18.1501C28.93 16.9901 28 16.0601 26.84 16.0601Z"
+              fill="currentColor"
+            />
+          </svg>
+        </span>
+        <div class="timeline-item-description">
+          <i class="avatar | small">
+            <img src="../assets/image/crf.svg" alt="crf" />
+          </i>
+          <span
+            ><a href="#">Antoine</a> est devenu
+            <a href="#">chef de secteur télécom du Rhône</a> au sein de la
+            <a href="#">Croix Rouge Française</a> en
+            <time datetime="21-01-2021">Janvier, 2023</time></span
+          >
+        </div>
+      </li>
+      <li class="timeline-item">
+        <span class="timeline-item-icon | faded-icon">
+          <svg
+            width="32"
+            height="32"
+            viewBox="0 0 32 32"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M8.81009 18.2778C9.20895 18.2778 9.53229 18.6012 9.53229 19V22.03C9.53229 25.8612 12.6389 28.9678 16.4701 28.9678C20.3012 28.9678 23.4079 25.8612 23.4079 22.03V19C23.4079 18.6012 23.7312 18.2778 24.1301 18.2778C24.5289 18.2778 24.8523 18.6012 24.8523 19V22.03C24.8523 26.6589 21.0989 30.4122 16.4701 30.4122C11.8412 30.4122 8.08789 26.6589 8.08789 22.03V19C8.08789 18.6012 8.41123 18.2778 8.81009 18.2778Z"
+              fill="currentColor"
+            />
+            <path
+              d="M20.3102 4.90002H12.6302C9.05016 4.90002 6.16016 7.80003 6.16016 11.37V17.05H26.7902V11.37C26.7802 7.80003 23.8802 4.90002 20.3102 4.90002Z"
+              fill="currentColor"
+            />
+            <path
+              d="M18.0101 3H14.9401C13.1001 3 11.6001 4.49 11.6001 6.34V17.06H21.3401V6.34C21.3401 4.5 19.8501 3 18.0101 3Z"
+              fill="currentColor"
+            />
+            <path
+              d="M18.6803 9.4101H17.7103V8.44009C17.7103 7.76009 17.1603 7.21008 16.4803 7.21008C15.8003 7.21008 15.2503 7.76009 15.2503 8.44009V9.4101H14.2803C13.6003 9.4101 13.0503 9.96008 13.0503 10.6401C13.0503 11.3201 13.6003 11.8701 14.2803 11.8701H15.2503V12.8401C15.2503 13.5201 15.8003 14.0701 16.4803 14.0701C17.1603 14.0701 17.7103 13.5201 17.7103 12.8401V11.8701H18.6803C19.3603 11.8701 19.9103 11.3201 19.9103 10.6401C19.9103 9.97008 19.3603 9.4101 18.6803 9.4101Z"
+              fill="#f4f6f8"
+            />
+            <path
+              d="M26.84 16.0601H6.09C4.94 16.0601 4 17.0001 4 18.1501C4 19.3001 4.94 20.2401 6.09 20.2401H26.84C27.99 20.2401 28.93 19.3001 28.93 18.1501C28.93 16.9901 28 16.0601 26.84 16.0601Z"
+              fill="currentColor"
+            />
+          </svg>
+        </span>
+        <div class="timeline-item-description">
+          <i class="avatar | small">
+            <img src="../assets/image/crf.svg" alt="crf" />
+          </i>
+          <span
+            ><a href="#">Antoine</a> est devenu
+            <a href="#">chargé de mission, missions de secours</a> au sein de la
+            <a href="#">Croix Rouge Française</a> en
+            <time datetime="21-01-2021">Octobre, 2022</time></span
+          >
+        </div>
+      </li>
+      <li class="timeline-item">
+        <span class="timeline-item-icon | faded-icon">
+          <svg
+            width="32"
+            height="32"
+            viewBox="0 0 32 32"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M8.81009 18.2778C9.20895 18.2778 9.53229 18.6012 9.53229 19V22.03C9.53229 25.8612 12.6389 28.9678 16.4701 28.9678C20.3012 28.9678 23.4079 25.8612 23.4079 22.03V19C23.4079 18.6012 23.7312 18.2778 24.1301 18.2778C24.5289 18.2778 24.8523 18.6012 24.8523 19V22.03C24.8523 26.6589 21.0989 30.4122 16.4701 30.4122C11.8412 30.4122 8.08789 26.6589 8.08789 22.03V19C8.08789 18.6012 8.41123 18.2778 8.81009 18.2778Z"
+              fill="currentColor"
+            />
+            <path
+              d="M20.3102 4.90002H12.6302C9.05016 4.90002 6.16016 7.80003 6.16016 11.37V17.05H26.7902V11.37C26.7802 7.80003 23.8802 4.90002 20.3102 4.90002Z"
+              fill="currentColor"
+            />
+            <path
+              d="M18.0101 3H14.9401C13.1001 3 11.6001 4.49 11.6001 6.34V17.06H21.3401V6.34C21.3401 4.5 19.8501 3 18.0101 3Z"
+              fill="currentColor"
+            />
+            <path
+              d="M18.6803 9.4101H17.7103V8.44009C17.7103 7.76009 17.1603 7.21008 16.4803 7.21008C15.8003 7.21008 15.2503 7.76009 15.2503 8.44009V9.4101H14.2803C13.6003 9.4101 13.0503 9.96008 13.0503 10.6401C13.0503 11.3201 13.6003 11.8701 14.2803 11.8701H15.2503V12.8401C15.2503 13.5201 15.8003 14.0701 16.4803 14.0701C17.1603 14.0701 17.7103 13.5201 17.7103 12.8401V11.8701H18.6803C19.3603 11.8701 19.9103 11.3201 19.9103 10.6401C19.9103 9.97008 19.3603 9.4101 18.6803 9.4101Z"
+              fill="#f4f6f8"
+            />
+            <path
+              d="M26.84 16.0601H6.09C4.94 16.0601 4 17.0001 4 18.1501C4 19.3001 4.94 20.2401 6.09 20.2401H26.84C27.99 20.2401 28.93 19.3001 28.93 18.1501C28.93 16.9901 28 16.0601 26.84 16.0601Z"
+              fill="currentColor"
+            />
+          </svg>
+        </span>
+        <div class="timeline-item-description">
+          <i class="avatar | small">
+            <img src="../assets/image/crf.svg" alt="crf" />
+          </i>
+          <span
+            ><a href="#">Antoine</a> est devenu
+            <a href="#">secouriste bénévole</a> au sein de la
+            <a href="#">Croix Rouge Française</a> en
+            <time datetime="21-01-2021">Mai, 2022</time></span
+          >
+        </div>
+      </li>
+      <li class="timeline-item">
+        <span class="timeline-item-icon | faded-icon">
+          <svg
+            width="800px"
+            height="800px"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M4 12H3V8C3 6.89543 3.89543 6 5 6H9M4 12V18C4 19.1046 4.89543 20 6 20H18C19.1046 20 20 19.1046 20 18V12M4 12H10M20 12H21V8C21 6.89543 20.1046 6 19 6H15M20 12H14M14 12V10H10V12M14 12V14H10V12M9 6V5C9 3.89543 9.89543 3 11 3H13C14.1046 3 15 3.89543 15 5V6M9 6H15"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </span>
+        <div class="timeline-item-description">
+          <i class="avatar | small">
+            <img src="../assets/image/sdis.svg" alt="sdis" />
+          </i>
+          <span
+            ><a href="#">Antoine</a> a travaillé au sein du
+            <a href="#">SDIS 34</a> en tant que
+            <a href="#">Sapeur Pompier - Nageur Sauveteur et Chef de Poste</a>
+            de <time datetime="21-01-2021">Juillet à Août, 2022</time></span
+          >
+        </div>
+      </li>
+      <li class="timeline-item">
+        <span class="timeline-item-icon | faded-icon">
+          <svg
+            width="800px"
+            height="800px"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M4 12H3V8C3 6.89543 3.89543 6 5 6H9M4 12V18C4 19.1046 4.89543 20 6 20H18C19.1046 20 20 19.1046 20 18V12M4 12H10M20 12H21V8C21 6.89543 20.1046 6 19 6H15M20 12H14M14 12V10H10V12M14 12V14H10V12M9 6V5C9 3.89543 9.89543 3 11 3H13C14.1046 3 15 3.89543 15 5V6M9 6H15"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </span>
+        <div class="timeline-item-description">
+          <i class="avatar | small">
+            <img src="../assets/image/origami.svg" alt="origami" />
+          </i>
+          <span
+            ><a href="#">Antoine</a> a travaillé au sein du
+            <a href="#">groupe OPALIA</a> en tant que
+            <a href="#">Nageur Sauveteur</a> de
+            <time datetime="21-01-2021">Février à Mai, 2022</time></span
+          >
+        </div>
+      </li>
+      <li class="timeline-item">
+        <span class="timeline-item-icon | faded-icon">
+          <svg
+            width="800px"
+            height="800px"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M3.09155 6.63659L9.78267 3.49965C11.2037 2.83345 12.7961 2.83345 14.2171 3.49965L20.9083 6.63664C22.3638 7.31899 22.3638 9.68105 20.9083 10.3634L14.2172 13.5003C12.7962 14.1665 11.2038 14.1665 9.78275 13.5003L4.99995 11.2581"
+              stroke="currentColor"
+              stroke-width="1.5"
+              stroke-linecap="round"
+            />
+            <path
+              d="M2.5 15V12.1376C2.5 10.8584 2.5 10.2188 2.83032 9.71781C3.16064 9.21687 3.74853 8.96492 4.92432 8.461L6 8"
+              stroke="currentColor"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+            <path
+              d="M19 11.5V16.6254C19 17.6334 18.4965 18.5772 17.6147 19.0656C16.1463 19.8787 13.796 21 12 21C10.204 21 7.8537 19.8787 6.38533 19.0656C5.5035 18.5772 5 17.6334 5 16.6254V11.5"
+              stroke="currentColor"
+              stroke-width="1.5"
+              stroke-linecap="round"
+            />
+          </svg>
+        </span>
+        <div class="timeline-item-description">
+          <i class="avatar | small">
+            <img src="../assets/image/lyon1.svg" alt="occitanie" />
+          </i>
+          <span
+            ><a href="#">Antoine</a> a commencé à étudier en
+            <a href="#"
+              >Bachelor Universitaire de Technologie en Informatique</a
+            >
+            à l'<a href="#">IUT Lyon 1</a> en
+
+            <time datetime="20-01-2021">Septembre, 2021</time></span
+          >
+        </div>
+      </li>
+      <li class="timeline-item">
+        <span class="timeline-item-icon | faded-icon">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            width="24"
+            height="24"
+          >
+            <path fill="none" d="M0 0h24v24H0z" />
+            <path fill="currentColor" d="M12 13H4v-2h8V4l8 8-8 8z" />
+          </svg>
+        </span>
+        <div class="timeline-item-description">
+          <span
+            ><a href="#">Antoine</a> a déménagé à Lyon en
+            <time datetime="21-01-2021">Septembre, 2021</time></span
+          >
+        </div>
+      </li>
+      <li class="timeline-item">
+        <span class="timeline-item-icon | faded-icon">
+          <svg
+            width="800px"
+            height="800px"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M4 12H3V8C3 6.89543 3.89543 6 5 6H9M4 12V18C4 19.1046 4.89543 20 6 20H18C19.1046 20 20 19.1046 20 18V12M4 12H10M20 12H21V8C21 6.89543 20.1046 6 19 6H15M20 12H14M14 12V10H10V12M14 12V14H10V12M9 6V5C9 3.89543 9.89543 3 11 3H13C14.1046 3 15 3.89543 15 5V6M9 6H15"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </span>
+        <div class="timeline-item-description">
+          <i class="avatar | small">
+            <img src="../assets/image/sdis.svg" alt="sdis" />
+          </i>
+          <span
+            ><a href="#">Antoine</a> a travaillé au sein du
+            <a href="#">SDIS 34</a> en tant que
+            <a href="#">Sapeur Pompier - Nageur Sauveteur</a> de
+            <time datetime="21-01-2021">Juillet à Août, 2021</time></span
           >
         </div>
       </li>
@@ -105,7 +587,7 @@
           >
         </div>
       </li>
-      <li class="timeline-item | extra-space">
+      <!-- <li class="timeline-item | extra-space">
         <span class="timeline-item-icon | filled-icon">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -184,7 +666,7 @@
             </span>
           </button>
         </div>
-      </li>
+      </li> -->
     </ol>
   </div>
 </template>
@@ -199,16 +681,6 @@
 *:after {
   box-sizing: border-box;
 }
-
-:root {
-  --c-grey-100: #f4f6f8;
-  --c-grey-200: #e3e3e3;
-  --c-grey-300: #b2b2b2;
-  --c-grey-400: #7b7b7b;
-  --c-grey-500: #3d3d3d;
-  --c-blue-500: #688afd;
-}
-
 /* Some basic CSS overrides */
 body {
   line-height: 1.5;
@@ -234,11 +706,23 @@ img {
   max-width: 100%;
 }
 
+.timeline-exit {
+  padding: 1em;
+}
 .timeline-container {
   background-color: white;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
   border-radius: 10px;
   width: 60%;
+  margin-bottom: 5vh;
+}
+
+.timeline-container h2 {
+  font-size: 1.5rem;
+  margin: 0;
+  padding: 2rem;
+  color: black;
+  text-align: center;
 }
 
 .timeline {
@@ -323,6 +807,9 @@ img {
   color: #7b7b7b;
 }
 
+.timeline-item-description i {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
 .timeline-item-description img {
   flex-shrink: 0;
 }
