@@ -98,6 +98,7 @@
   align-items: center;
   justify-content: space-evenly;
   width: 100%;
+  padding-bottom: 5vh;
 }
 #me_text {
   background: rgba(255, 255, 255, 0.2);
@@ -163,10 +164,9 @@
       </div>
     </div>
     <!-- <h2>Career Path</h2> -->
-    <h2>Expériences</h2>
   </div>
 
-  <div id="timeline">
+  <!-- <div id="timeline">
     <div class="timeline__component timeline__component--bg">
       <div class="timeline__header">
         <img
@@ -351,7 +351,7 @@
         Spécialisation Mathématiques et Informatique
       </p>
     </div>
-  </div>
+  </div> -->
 
   <TimelineComponent />
 </template>
