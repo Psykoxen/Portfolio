@@ -1,4 +1,13 @@
-<script setup></script>
+<script setup>
+import { onMounted, ref } from "vue";
+
+onMounted(() => {
+  let arrow = document.getElementById("arrow-scroll");
+  arrow.addEventListener("click", (e) => {
+    projects.scrollIntoView();
+  });
+});
+</script>
 
 <template>
   <div id="home">
@@ -265,6 +274,10 @@ h1 {
   display: flex;
   justify-content: center;
   width: 100%;
+}
+
+.arrow-down:hover {
+  cursor: pointer;
 }
 
 .arrow-down {
