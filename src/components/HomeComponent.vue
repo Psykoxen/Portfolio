@@ -13,7 +13,7 @@ onMounted(() => {
   <div id="home">
     <div id="introduction">
       <h1>Antoine Voillot</h1>
-      <p>Hi. I'm an IT Student and rescuer of French Red Cross</p>
+      <p>{{ $t("HomeQuote") }}</p>
     </div>
     <div id="icons">
       <div id="icons-link">
