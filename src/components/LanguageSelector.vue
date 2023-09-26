@@ -1,12 +1,16 @@
-<script setup></script>
-
 <template>
   <div id="language-selector">
-    <a id="fr_toggle">FR</a>
+    <a id="fr_toggle" @click="toggleLanguage('fr')">FR</a>
     <p>|</p>
-    <a id="en_toggle">EN</a>
+    <a id="en_toggle" @click="toggleLanguage('en')">EN</a>
   </div>
 </template>
+
+<script setup>
+const toggleLanguage = (language) => {
+  console.log(language);
+};
+</script>
 
 <style scoped>
 #language-selector {
