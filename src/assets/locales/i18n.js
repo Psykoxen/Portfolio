@@ -6,11 +6,11 @@ import en from "./en.json";
 const app = createApp({});
 
 const i18n = createI18n({
-  locale: "fr",
-  fallbackLocale: "en",
+  locale: "en",
+  fallbackLocale: "fr",
   messages: {
-    fr: fr,
     en: en,
+    fr: fr,
   },
 });
 

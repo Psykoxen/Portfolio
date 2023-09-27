@@ -141,7 +141,7 @@
 <template>
   <div id="me">
     <!-- <h1>About me</h1> -->
-    <h1>A propos</h1>
+    <h1>{{ $t("AboutTitle") }}</h1>
     <div>
       <img src="../assets/image/me.jpg" class="profile" />
       <!-- <p id="me_text">
@@ -152,15 +152,16 @@
         </p> -->
       <div class="profile-content">
         <p id="me_text">
-          Actuellement étudiant en BUT Informatique à l’IUT Lyon 1, je suis par
+          <!-- Actuellement étudiant en BUT Informatique à l’IUT Lyon 1, je suis par
           ailleurs diplômé du Brevet National de Sécurité et Sauvetage Aquatique
           qui me permet d’exercer comme saisonnier en tant que sapeur pompier
           nageur sauveur mais également d’être bénévole à La Croix Rouge
-          Française.
+          Française. -->
+          {{ $t("AboutSummary") }}
         </p>
-        <a id="link-cv" href="../assets/doc/voillot_cv.pdf" target="_blank"
-          >Mon CV</a
-        >
+        <a id="link-cv" href="../assets/doc/voillot_cv.pdf" target="_blank">{{
+          $t("AboutResume")
+        }}</a>
       </div>
     </div>
     <!-- <h2>Career Path</h2> -->

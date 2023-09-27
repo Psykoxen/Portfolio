@@ -22,7 +22,7 @@
         <div class="new-comment">
           <input
             type="text"
-            placeholder="What we will be the next challenge ?"
+            :placeholder="$t('AboutTimelineNextChallenge')"
             disabled
           />
         </div>
@@ -63,12 +63,15 @@
             <img src="../assets/image/ets.png" alt="ETS" />
           </i>
           <span
-            ><a href="#">Antoine</a> a commencé à étudier en
-            <a href="#">Baccalauréat Génie Logiciel</a> à
+            ><a href="#">Antoine</a> {{ $t("AboutTimelineStartedSchool") }}
+            <a href="#">Baccalauréat Génie Logiciel</a>
+            {{ $t("AboutTimelineAt") }}
             <a href="#">ETS Montréal</a>
-            en
+            {{ $t("AboutTimelineIn") }}
 
-            <time datetime="21-01-2021">Septembre, 2023</time></span
+            <time datetime="21-01-2021"
+              >{{ $t("MounthSeptember") }}, 2023</time
+            ></span
           >
         </div>
       </li>
@@ -87,8 +90,11 @@
         </span>
         <div class="timeline-item-description">
           <span
-            ><a href="#">Antoine</a> a déménagé à Montréal en
-            <time datetime="21-01-2021">Août, 2023</time></span
+            ><a href="#">Antoine</a> {{ $t("AboutTimelineMoved") }} Montréal
+            {{ $t("AboutTimelineIn") }}
+            <time datetime="21-01-2021"
+              >{{ $t("MounthAugust") }}, 2023</time
+            ></span
           >
         </div>
       </li>
@@ -116,19 +122,18 @@
               <img src="../assets/image/sdis.svg" />
             </i>
             <span
-              ><a href="#">Antoine</a> a travaillé en tant que
-              <a href="#">Sapeur Pompier - Nageur Sauveteur et Chef de Poste</a>
-              au sein du <a href="#">SDIS 34</a> de
-              <time datetime="21-01-2021">Juillet à Août, 2023</time></span
+              ><a href="#">Antoine</a> {{ $t("AboutTimelineAsWorked")
+              }}<a href="#">{{ $t("ExperienceLifeguardManager") }}</a
+              >{{ $t("AboutTimelineAt") }}
+              <a href="#">SDIS 34</a>
+              {{ $t("AboutTimelineFrom") }}{{ $t("MounthJuly")
+              }}{{ $t("AboutTimelineTo") }}{{ $t("MounthAugust") }}
+              <time datetime="21-01-2021">, 2023</time></span
             >
           </div>
           <div class="comment">
             <p>
-              En qualité de chef de poste, assurer la surveillance de la plage,
-              repérer les baigneurs en difficulté et intervenir en cas de
-              besoin. Également délimiter les zones de baignade et veiller au
-              respect des règles de sécurité. Veiller également à la sécurité
-              d'intervention des canadairs à proximité des zones de baignades.
+              {{ $t("ExperienceLifeguardManagerResume") }}
             </p>
           </div>
         </div>
@@ -157,13 +162,13 @@
             <img src="../assets/image/anap.svg" alt="anap" />
           </i>
           <span
-            ><a href="#">Antoine</a> a terminé son stage de
-            <a href="#">développeur fullstack salesforce</a> l'<a href="#"
-              >ANAP</a
-            >
-            en
+            ><a href="#">Antoine</a> {{ $t("AboutTimelineEndingInternship") }}
+            <a href="#">ANAP</a>
+            {{ $t("AboutTimelineIn") }}
 
-            <time datetime="21-01-2021">Juin, 2023</time></span
+            <time datetime="21-01-2021"
+              >{{ $t("MounthJune") }}, 2023</time
+            ></span
           >
         </div>
       </li>
@@ -203,10 +208,14 @@
             <img src="../assets/image/crf.svg" alt="crf" />
           </i>
           <span
-            ><a href="#">Antoine</a> est devenu
-            <a href="#">Directeur Local Adjoint aux missions de secours</a>
-            au sein de la <a href="#">Croix Rouge Française</a> en
-            <time datetime="21-01-2021">Juin, 2023</time></span
+            ><a href="#">Antoine</a> {{ $t("AboutTimelineBecame") }}
+            <a href="#">{{ $t("ExperienceDLUSAMS") }}</a>
+            {{ $t("AboutTimelineInside") }}
+            <a href="#">{{ $t("CompanyRedCross") }}</a>
+            {{ $t("AboutTimelineIn") }}
+            <time datetime="21-01-2021"
+              >{{ $t("MounthJune") }}, 2023</time
+            ></span
           >
         </div>
       </li>
@@ -233,13 +242,14 @@
             <img src="../assets/image/anap.svg" alt="anap" />
           </i>
           <span
-            ><a href="#">Antoine</a> a intégré comme
-            <a href="#">développeur fullstack salesforce</a> l'<a href="#"
-              >ANAP</a
-            >
-            en
+            ><a href="#">Antoine</a> {{ $t("AboutTimelineStartedInternship") }}
+            <a href="#">{{ $t("ExperienceFullStackDeveloper") }} Salesforce</a>
+            {{ $t("AboutTimelineAt") }}<a href="#">ANAP</a>
+            {{ $t("AboutTimelineIn") }}
 
-            <time datetime="21-01-2021">Avril, 2023</time></span
+            <time datetime="21-01-2021"
+              >{{ $t("MounthApril") }}, 2023</time
+            ></span
           >
         </div>
       </li>
@@ -257,8 +267,11 @@
         </span>
         <div class="timeline-item-description">
           <span
-            ><a href="#">Antoine</a> a déménagé à Paris en
-            <time datetime="21-01-2021">Avril, 2023</time></span
+            ><a href="#">Antoine</a> {{ $t("AboutTimelineMoved") }} Paris
+            {{ $t("AboutTimelineIn") }}
+            <time datetime="21-01-2021"
+              >{{ $t("MounthApril") }}, 2023</time
+            ></span
           >
         </div>
       </li>
@@ -298,10 +311,14 @@
             <img src="../assets/image/crf.svg" alt="crf" />
           </i>
           <span
-            ><a href="#">Antoine</a> est devenu
-            <a href="#">chef de secteur télécom du Rhône</a> au sein de la
-            <a href="#">Croix Rouge Française</a> en
-            <time datetime="21-01-2021">Janvier, 2023</time></span
+            ><a href="#">Antoine</a> {{ $t("AboutTimelineBecame") }}
+            <a href="#">{{ $t("ExperienceCSTCOM") }}</a>
+            {{ $t("AboutTimelineInside") }}
+            <a href="#">{{ $t("CompanyRedCross") }}</a>
+            {{ $t("AboutTimelineIn") }}
+            <time datetime="21-01-2021"
+              >{{ $t("MounthJanuary") }}, 2023</time
+            ></span
           >
         </div>
       </li>
@@ -341,56 +358,18 @@
             <img src="../assets/image/crf.svg" alt="crf" />
           </i>
           <span
-            ><a href="#">Antoine</a> est devenu
-            <a href="#">chargé de mission, missions de secours</a> au sein de la
-            <a href="#">Croix Rouge Française</a> en
-            <time datetime="21-01-2021">Octobre, 2022</time></span
+            ><a href="#">Antoine</a> {{ $t("AboutTimelineBecame") }}
+            <a href="#">{{ $t("ExperienceCMMS") }}</a>
+            {{ $t("AboutTimelineInside") }}
+            <a href="#">{{ $t("CompanyRedCross") }}</a>
+            {{ $t("AboutTimelineIn") }}
+            <time datetime="21-01-2021"
+              >{{ $t("MounthOctober") }}, 2022</time
+            ></span
           >
         </div>
       </li>
-      <li class="timeline-item">
-        <span class="timeline-item-icon | faded-icon">
-          <svg
-            width="32"
-            height="32"
-            viewBox="0 0 32 32"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M8.81009 18.2778C9.20895 18.2778 9.53229 18.6012 9.53229 19V22.03C9.53229 25.8612 12.6389 28.9678 16.4701 28.9678C20.3012 28.9678 23.4079 25.8612 23.4079 22.03V19C23.4079 18.6012 23.7312 18.2778 24.1301 18.2778C24.5289 18.2778 24.8523 18.6012 24.8523 19V22.03C24.8523 26.6589 21.0989 30.4122 16.4701 30.4122C11.8412 30.4122 8.08789 26.6589 8.08789 22.03V19C8.08789 18.6012 8.41123 18.2778 8.81009 18.2778Z"
-              fill="currentColor"
-            />
-            <path
-              d="M20.3102 4.90002H12.6302C9.05016 4.90002 6.16016 7.80003 6.16016 11.37V17.05H26.7902V11.37C26.7802 7.80003 23.8802 4.90002 20.3102 4.90002Z"
-              fill="currentColor"
-            />
-            <path
-              d="M18.0101 3H14.9401C13.1001 3 11.6001 4.49 11.6001 6.34V17.06H21.3401V6.34C21.3401 4.5 19.8501 3 18.0101 3Z"
-              fill="currentColor"
-            />
-            <path
-              d="M18.6803 9.4101H17.7103V8.44009C17.7103 7.76009 17.1603 7.21008 16.4803 7.21008C15.8003 7.21008 15.2503 7.76009 15.2503 8.44009V9.4101H14.2803C13.6003 9.4101 13.0503 9.96008 13.0503 10.6401C13.0503 11.3201 13.6003 11.8701 14.2803 11.8701H15.2503V12.8401C15.2503 13.5201 15.8003 14.0701 16.4803 14.0701C17.1603 14.0701 17.7103 13.5201 17.7103 12.8401V11.8701H18.6803C19.3603 11.8701 19.9103 11.3201 19.9103 10.6401C19.9103 9.97008 19.3603 9.4101 18.6803 9.4101Z"
-              fill="#f4f6f8"
-            />
-            <path
-              d="M26.84 16.0601H6.09C4.94 16.0601 4 17.0001 4 18.1501C4 19.3001 4.94 20.2401 6.09 20.2401H26.84C27.99 20.2401 28.93 19.3001 28.93 18.1501C28.93 16.9901 28 16.0601 26.84 16.0601Z"
-              fill="currentColor"
-            />
-          </svg>
-        </span>
-        <div class="timeline-item-description">
-          <i class="avatar | small">
-            <img src="../assets/image/crf.svg" alt="crf" />
-          </i>
-          <span
-            ><a href="#">Antoine</a> est devenu
-            <a href="#">secouriste bénévole</a> au sein de la
-            <a href="#">Croix Rouge Française</a> en
-            <time datetime="21-01-2021">Mai, 2022</time></span
-          >
-        </div>
-      </li>
+
       <li class="timeline-item">
         <span class="timeline-item-icon | faded-icon">
           <svg
@@ -414,10 +393,58 @@
             <img src="../assets/image/sdis.svg" alt="sdis" />
           </i>
           <span
-            ><a href="#">Antoine</a> a travaillé au sein du
-            <a href="#">SDIS 34</a> en tant que
-            <a href="#">Sapeur Pompier - Nageur Sauveteur et Chef de Poste</a>
-            de <time datetime="21-01-2021">Juillet à Août, 2022</time></span
+            ><a href="#">Antoine</a> {{ $t("AboutTimelineAsWorked")
+            }}<a href="#">{{ $t("ExperienceLifeguardManager") }}</a
+            >{{ $t("AboutTimelineAt") }}
+            <a href="#">SDIS 34</a>
+            {{ $t("AboutTimelineFrom") }}{{ $t("MounthJuly")
+            }}{{ $t("AboutTimelineTo") }}{{ $t("MounthAugust") }}
+            <time datetime="21-01-2021">, 2022</time></span
+          >
+        </div>
+      </li>
+      <li class="timeline-item">
+        <span class="timeline-item-icon | faded-icon">
+          <svg
+            width="32"
+            height="32"
+            viewBox="0 0 32 32"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M8.81009 18.2778C9.20895 18.2778 9.53229 18.6012 9.53229 19V22.03C9.53229 25.8612 12.6389 28.9678 16.4701 28.9678C20.3012 28.9678 23.4079 25.8612 23.4079 22.03V19C23.4079 18.6012 23.7312 18.2778 24.1301 18.2778C24.5289 18.2778 24.8523 18.6012 24.8523 19V22.03C24.8523 26.6589 21.0989 30.4122 16.4701 30.4122C11.8412 30.4122 8.08789 26.6589 8.08789 22.03V19C8.08789 18.6012 8.41123 18.2778 8.81009 18.2778Z"
+              fill="currentColor"
+            />
+            <path
+              d="M20.3102 4.90002H12.6302C9.05016 4.90002 6.16016 7.80003 6.16016 11.37V17.05H26.7902V11.37C26.7802 7.80003 23.8802 4.90002 20.3102 4.90002Z"
+              fill="currentColor"
+            />
+            <path
+              d="M18.0101 3H14.9401C13.1001 3 11.6001 4.49 11.6001 6.34V17.06H21.3401V6.34C21.3401 4.5 19.8501 3 18.0101 3Z"
+              fill="currentColor"
+            />
+            <path
+              d="M18.6803 9.4101H17.7103V8.44009C17.7103 7.76009 17.1603 7.21008 16.4803 7.21008C15.8003 7.21008 15.2503 7.76009 15.2503 8.44009V9.4101H14.2803C13.6003 9.4101 13.0503 9.96008 13.0503 10.6401C13.0503 11.3201 13.6003 11.8701 14.2803 11.8701H15.2503V12.8401C15.2503 13.5201 15.8003 14.0701 16.4803 14.0701C17.1603 14.0701 17.7103 13.5201 17.7103 12.8401V11.8701H18.6803C19.3603 11.8701 19.9103 11.3201 19.9103 10.6401C19.9103 9.97008 19.3603 9.4101 18.6803 9.4101Z"
+              fill="#f4f6f8"
+            />
+            <path
+              d="M26.84 16.0601H6.09C4.94 16.0601 4 17.0001 4 18.1501C4 19.3001 4.94 20.2401 6.09 20.2401H26.84C27.99 20.2401 28.93 19.3001 28.93 18.1501C28.93 16.9901 28 16.0601 26.84 16.0601Z"
+              fill="currentColor"
+            />
+          </svg>
+        </span>
+        <div class="timeline-item-description">
+          <i class="avatar | small">
+            <img src="../assets/image/crf.svg" alt="crf" />
+          </i>
+          <span
+            ><a href="#">Antoine</a> {{ $t("AboutTimelineBecame") }}
+            <a href="#">{{ $t("ExperienceFirstResponder") }}</a>
+            {{ $t("AboutTimelineInside") }}
+            <a href="#">{{ $t("CompanyRedCross") }}</a>
+            {{ $t("AboutTimelineIn") }}
+            <time datetime="21-01-2021">{{ $t("MounthMay") }}, 2022</time></span
           >
         </div>
       </li>
@@ -444,10 +471,16 @@
             <img src="../assets/image/origami.svg" alt="origami" />
           </i>
           <span
-            ><a href="#">Antoine</a> a travaillé au sein du
-            <a href="#">groupe OPALIA</a> en tant que
-            <a href="#">Nageur Sauveteur</a> de
-            <time datetime="21-01-2021">Février à Mai, 2022</time></span
+            ><a href="#">Antoine</a> {{ $t("AboutTimelineAsWorked") }}
+            <a href="#">{{ $t("ExperienceLifeguard") }}</a
+            >{{ $t("AboutTimelineAt") }}
+            <a href="#">{{ $t("CompanyOpalia") }}</a>
+            {{ $t("AboutTimelineFrom") }}
+            de
+            <time datetime="21-01-2021"
+              >Février {{ $t("AboutTimelineTo") }} {{ $t("MounthMay") }},
+              2022</time
+            ></span
           >
         </div>
       </li>
@@ -486,13 +519,15 @@
             <img src="../assets/image/lyon1.svg" alt="occitanie" />
           </i>
           <span
-            ><a href="#">Antoine</a> a commencé à étudier en
-            <a href="#"
-              >Bachelor Universitaire de Technologie en Informatique</a
-            >
-            à l'<a href="#">IUT Lyon 1</a> en
+            ><a href="#">Antoine</a> {{ $t("AboutTimelineStartedSchool") }}
+            <a href="#">{{ $t("DegreeBUTInfo") }}</a>
+            {{ $t("AboutTimelineAt") }}
+            <a href="#">IUT Lyon 1</a>
+            {{ $t("AboutTimelineIn") }}
 
-            <time datetime="20-01-2021">Septembre, 2021</time></span
+            <time datetime="21-01-2021"
+              >{{ $t("MounthSeptember") }}, 2021</time
+            ></span
           >
         </div>
       </li>
@@ -510,8 +545,11 @@
         </span>
         <div class="timeline-item-description">
           <span
-            ><a href="#">Antoine</a> a déménagé à Lyon en
-            <time datetime="21-01-2021">Septembre, 2021</time></span
+            ><a href="#">Antoine</a> {{ $t("AboutTimelineMoved") }} Lyon
+            {{ $t("AboutTimelineIn") }}
+            <time datetime="21-01-2021"
+              >{{ $t("MounthSeptember") }}, 2021</time
+            ></span
           >
         </div>
       </li>
@@ -538,10 +576,13 @@
             <img src="../assets/image/sdis.svg" alt="sdis" />
           </i>
           <span
-            ><a href="#">Antoine</a> a travaillé au sein du
-            <a href="#">SDIS 34</a> en tant que
-            <a href="#">Sapeur Pompier - Nageur Sauveteur</a> de
-            <time datetime="21-01-2021">Juillet à Août, 2021</time></span
+            ><a href="#">Antoine</a> {{ $t("AboutTimelineAsWorked")
+            }}<a href="#">{{ $t("ExperienceLifeguard") }}</a
+            >{{ $t("AboutTimelineAt") }}
+            <a href="#">SDIS 34</a>
+            {{ $t("AboutTimelineFrom") }}{{ $t("MounthJuly")
+            }}{{ $t("AboutTimelineTo") }}{{ $t("MounthAugust") }}
+            <time datetime="21-01-2021">, 2021</time></span
           >
         </div>
       </li>
@@ -580,10 +621,13 @@
             <img src="../assets/image/occitanie.svg" alt="occitanie" />
           </i>
           <span
-            ><a href="#">Antoine</a> a réussi un
-            <a href="#">Baccalauréat Scientifique</a> avec mention bien au
-            <a href="#">Lycée Jean Jaurès</a> en
-            <time datetime="20-01-2021">Juin, 2021</time></span
+            ><a href="#">Antoine</a> {{ $t("AboutTimelineEndedSchool") }}
+            <a href="#">{{ $t("DegreeBaccalaureateScientific") }}</a>
+            {{ $t("DegreeMentionGood") }} {{ $t("AboutTimelineAt") }}
+            <a href="#">Lycée Jean Jaurès</a> {{ $t("AboutTimelineIn") }}
+            <time datetime="20-01-2021"
+              >{{ $t("MounthJune") }}, 2021</time
+            ></span
           >
         </div>
       </li>
