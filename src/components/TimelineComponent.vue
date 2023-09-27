@@ -476,10 +476,9 @@
             >{{ $t("AboutTimelineAt") }}
             <a href="#">{{ $t("CompanyOpalia") }}</a>
             {{ $t("AboutTimelineFrom") }}
-            de
             <time datetime="21-01-2021"
-              >Février {{ $t("AboutTimelineTo") }} {{ $t("MounthMay") }},
-              2022</time
+              >{{ $t("MounthFebruary") }} {{ $t("AboutTimelineTo") }}
+              {{ $t("MounthMay") }}, 2022</time
             ></span
           >
         </div>
