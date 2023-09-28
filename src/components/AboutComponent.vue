@@ -145,12 +145,12 @@
         <p id="me_text">
           {{ $t("AboutSummary") }}
         </p>
-        <a
+        <!-- <a
           id="link-cv"
           href="../assets/doc/voillot_cv.pdf"
           download="VOILLOT Antoine - CV.pdf"
           >{{ $t("AboutResume") }}</a
-        >
+        > -->
       </div>
     </div>
   </div>
