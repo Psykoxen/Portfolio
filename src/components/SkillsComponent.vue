@@ -1,6 +1,6 @@
 <template>
   <div id="skills">
-    <h1>Mes Compétences</h1>
+    <h1>{{ $t("SkillsTitle") }}</h1>
     <div id="skills-content">
       <div class="card-wrap">
         <div class="card-front">
@@ -8,10 +8,9 @@
             <i class="fas fa-code"></i>
           </div>
           <div class="card-content">
-            <h1 class="card-title">Réaliser</h1>
+            <h1 class="card-title">{{ $t("SkillsSubtitleBuild") }}</h1>
             <p class="card-text">
-              Développer : c'est créer, concevoir, coder, tester et intégrer une
-              solution informatique pour un client.
+              {{ $t("SkillsSubtitleBuildText") }}
             </p>
           </div>
         </div>
@@ -22,28 +21,28 @@
           <div class="card-content">
             <ul>
               <li>
-                <span>Rainbow :</span> Création d'une application météo
-                permettant l'affichage de données météorologique ainsi que la
-                recherche et les favoris
-                <a href="https://github.com/Psykoxen/Rainbow" target="_blank"
-                  >Voir plus</a
-                >
+                <span>Rainbow :</span>
+                {{ $t("SkillsSubtitleBuildTextRainbow") }}
+                <a href="https://github.com/Psykoxen/Rainbow" target="_blank">{{
+                  $t("SeeMoreLink")
+                }}</a>
               </li>
               <li>
-                <span>GraphMapAnalysis :</span> Création d'un outil permettant
-                la visualition d'un graphes de lieux géographiques, leur types
-                et leurs relations.
+                <span>GraphMapAnalysis :</span>
+                {{ $t("SkillsSubtitleBuildTextGraphMapAnaysis") }}
                 <a
                   href="https://github.com/Psykoxen/GraphMapAnalysis"
                   target="_blank"
-                  >Voir plus</a
+                  >{{ $t("SeeMoreLink") }}</a
                 >
               </li>
               <li>
-                <span>Tchoutchou :</span> Création d'un ERP adpaté à la gestion
-                d'un réseau de transport ferroviaire.
-                <a href="https://github.com/icepick4/sae-sncf" target="_blank"
-                  >Voir plus</a
+                <span>Tchoutchou :</span>
+                {{ $t("SkillsSubtitleBuildTextTchoutchou") }}
+                <a
+                  href="https://github.com/icepick4/sae-sncf"
+                  target="_blank"
+                  >{{ $t("SeeMoreLink") }}</a
                 >
               </li>
             </ul>
@@ -56,11 +55,9 @@
             <i class="fab fa-css3-alt"></i>
           </div>
           <div class="card-content">
-            <h1 class="card-title">Optimiser</h1>
+            <h1 class="card-title">{{ $t("SkillsSubtitleImprove") }}</h1>
             <p class="card-text">
-              Proposer des applications informatiques optimisées en fonction de
-              critères spécifiques : temps d'exécution, précision, consommation
-              de ressources..
+              {{ $t("SkillsSubtitleImproveText") }}
             </p>
           </div>
         </div>
@@ -71,20 +68,21 @@
           <div class="card-content">
             <ul>
               <li>
-                <span>Annuaire :</span> Optimiser le tri des données suivant la
-                taille du jeu de données et sa complexité.
-                <a href="https://github.com/Psykoxen/Directory" target="_blank"
-                  >Voir plus</a
+                <span>{{ $t("SkillsSubtitleDirectory") }} :</span>
+                {{ $t("SkillsSubtitleImproveTextDirectory") }}
+                <a
+                  href="https://github.com/Psykoxen/Directory"
+                  target="_blank"
+                  >{{ $t("SeeMoreLink") }}</a
                 >
               </li>
               <li>
-                <span>GraphMapAnalysis :</span> Réaliser un parcour de recherche
-                dans un graphe de lieux géographiques le plus effiace avec le
-                résultat le plus pertinant.
+                <span>GraphMapAnalysis :</span>
+                {{ $t("SkillsSubtitleImproveTextGraphMapAnaysis") }}
                 <a
                   href="https://github.com/Psykoxen/GraphMapAnalysis"
                   target="_blank"
-                  >Voir plus</a
+                  >{{ $t("SeeMoreLink") }}</a
                 >
               </li>
             </ul>
@@ -97,12 +95,9 @@
             <i class="fab fa-html5"></i>
           </div>
           <div class="card-content">
-            <h1 class="card-title">Administrer</h1>
+            <h1 class="card-title">{{ $t("SkillsSubtitleAdminister") }}</h1>
             <p class="card-text">
-              Installer, configurer, mettre à disposition, maintenir en
-              conditions opérationnelles des infrastructures, des services et
-              des réseaux et optimiser les systèmes informatiques d'une
-              organisation.
+              {{ $t("SkillsSubtitleAdministerText") }}
             </p>
           </div>
         </div>
@@ -113,9 +108,8 @@
           <div class="card-content">
             <ul>
               <li>
-                <span>Réseau :</span> Installer et configurer un réseau local,
-                configurer un DNS. Déployer un serveur web Apache sur un réseau
-                local puis public.
+                <span>{{ $t("SkillsSubtitleNetwork") }} :</span>
+                {{ $t("SkillsSubtitleAdministerTextNetwork") }}
               </li>
             </ul>
           </div>
@@ -127,11 +121,9 @@
             <i class="fab fa-js-square"></i>
           </div>
           <div class="card-content">
-            <h1 class="card-title">Gérer</h1>
+            <h1 class="card-title">{{ $t("SkillsSubtitleManage") }}</h1>
             <p class="card-text">
-              Concevoir, gérer, administrer et exploiter les données de
-              l'entreprise et mettre à disposition toutes les informations pour
-              un bon pilotage de l'entreprise.
+              {{ $t("SkillsSubtitleManageText") }}
             </p>
           </div>
         </div>
@@ -142,16 +134,16 @@
           <div class="card-content">
             <ul>
               <li>
-                <span>Base de données :</span> Déployer une base de données
-                Oracle. Création de données, de routines, de vues et de
-                procédures.
+                <span>{{ $t("SkillsSubtitleDatabase") }} :</span>
+                {{ $t("SkillsSubtitleManageTextDatabase") }}
               </li>
               <li>
-                <span>Tchoutchou :</span> Administer une base de données Oracle
-                en relation avec un ERP web. Création d'un jeu de données. Mise
-                en place de routines, de vues et de procédures.
-                <a href="https://github.com/icepick4/sae-sncf" target="_blank"
-                  >Voir plus</a
+                <span>Tchoutchou :</span>
+                {{ $t("SkillsSubtitleManageTextTchoutchou") }}
+                <a
+                  href="https://github.com/icepick4/sae-sncf"
+                  target="_blank"
+                  >{{ $t("SeeMoreLink") }}</a
                 >
               </li>
             </ul>
@@ -164,11 +156,9 @@
             <i class="fab fa-js-square"></i>
           </div>
           <div class="card-content">
-            <h1 class="card-title">Conduire</h1>
+            <h1 class="card-title">{{ $t("SkillsSubtitleDrive") }}</h1>
             <p class="card-text">
-              Satisfaire les besoins des utilisateurs au regard de la chaîne de
-              valeur du client, organiser et piloter un projet informatique avec
-              des méthodes classiques ou agiles.
+              {{ $t("SkillsSubtitleDriveText") }}
             </p>
           </div>
         </div>
@@ -179,12 +169,12 @@
           <div class="card-content">
             <ul>
               <li>
-                <span>Tchoutchou :</span> Réaliser un projet à l'aide d'une
-                méthode agile (SCRUM). Respect des coutumes agiles (sprints,
-                rétrospectives, etc...). Planification des tâches et suivi du
-                projet sur plusieurs mois.
-                <a href="https://github.com/icepick4/sae-sncf" target="_blank"
-                  >Voir plus</a
+                <span>Tchoutchou :</span>
+                {{ $t("SkillsSubtitleDriveTextTchoutchou") }}
+                <a
+                  href="https://github.com/icepick4/sae-sncf"
+                  target="_blank"
+                  >{{ $t("SeeMoreLink") }}</a
                 >
               </li>
             </ul>
@@ -197,10 +187,9 @@
             <i class="fab fa-js-square"></i>
           </div>
           <div class="card-content">
-            <h1 class="card-title">Collaborer</h1>
+            <h1 class="card-title">{{ $t("SkillsSubtitleTeamworking") }}</h1>
             <p class="card-text">
-              Acquérir, développer et exploiter les aptitudes nécessaires pour
-              travailler efficacement dans une équipe informatique.
+              {{ $t("SkillsSubtitleTeamworkingText") }}
             </p>
           </div>
         </div>
@@ -211,17 +200,15 @@
           <div class="card-content">
             <ul>
               <li>
-                <span>Traveil en équipe :</span> Familiraisation avec la
-                dynamique d'une équipe de développement. Réflexion sur les
-                méthodes de travail, la gestion de conflit et l'organisation à
-                adopter.
+                <span>{{ $t("SkillsSubtitleTeamwork") }} :</span>
+                {{ $t("SkillsSubtitleTeamworkingTextTeamwork") }}
               </li>
             </ul>
           </div>
         </div>
       </div>
     </div>
-    <h2>Langages</h2>
+    <h2>{{ $t("SkillsTitleHard") }}</h2>
     <div class="language">
       <a href="https://html.spec.whatwg.org/multipage/"
         ><img src="../assets/image/language/html.svg"

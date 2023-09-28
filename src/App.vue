@@ -1,7 +1,7 @@
 <template>
   <LanguageSelector />
   <Navbar
-    :tabs="tabs"
+    :tabs="translatedTabs"
     :currentIndex="currentIndex"
     @tab-clicked="setCurrentTab"
   />
@@ -22,9 +22,14 @@ import LanguageSelector from "./components/LanguageSelector.vue";
 export default {
   data() {
     return {
-      tabs: ["Home", "Skills", "About me"],
+      tabs: ["home", "skills", "about"], // Utilisez les clés de traduction ici
       currentIndex: 0,
     };
+  },
+  computed: {
+    translatedTabs() {
+      return this.tabs.map((tab) => this.$t(`tabs.${tab}`));
+    },
   },
   methods: {
     setCurrentTab(index) {

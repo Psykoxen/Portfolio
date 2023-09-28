@@ -41,7 +41,6 @@ export default {
     },
   },
   mounted() {
-    // Appeler la méthode pour positionner le background sur l'index 0 au chargement
     this.updateBackgroundStyle(0);
   },
 };

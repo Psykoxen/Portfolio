@@ -7,10 +7,10 @@
 </template>
 
 <script setup>
-import { i18n } from "../assets/locales/i18n"; // Assurez-vous d'importer correctement Vue-i18n depuis le chemin approprié
+import { i18n } from "../assets/locales/i18n";
 
 const toggleLanguage = (language) => {
-  i18n.global.locale = language; // Utilisez i18n.global.locale pour changer la langue
+  i18n.global.locale = language;
 };
 </script>
 

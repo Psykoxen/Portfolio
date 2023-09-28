@@ -11,7 +11,7 @@
       <circle cx="1109" cy="161" r="161" fill="#2FB449" />
       <circle cx="161" cy="161" r="161" fill="#E73130" />
     </svg>
-    <h2>Expériences & Formations</h2>
+    <h2>{{ $t("AboutTitleExperienceAndEducation") }}</h2>
     <ol class="timeline">
       <li class="timeline-item">
         <span class="timeline-item-icon | avatar-icon">
