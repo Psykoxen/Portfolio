@@ -14,6 +14,7 @@ onMounted(() => {
     <div id="introduction">
       <h1>Antoine Voillot</h1>
       <p>{{ $t("HomeQuote") }}</p>
+      <p id="subtitle">{{ $t("SearchingQuote") }}</p>
     </div>
     <div id="icons">
       <div id="icons-link">
@@ -47,24 +48,27 @@ onMounted(() => {
   </div>
   <div id="projects">
     <a
-      href="https://github.com/Psykoxen/Twitter-Lhebdo"
+      href="https://github.com/Psykoxen/ResidenceKeeper"
       target="_blank"
       class="projects_box"
       id="projects_box_1"
     >
-      <p class="projects_box_uptitle">Python</p>
-      <h3 class="projects_box_title">Bot Twitter</h3>
-      <img src="../assets/image/lhebdo_demo.svg" alt="lhebdo" />
+      <p class="projects_box_uptitle">Flutter</p>
+      <h3 class="projects_box_title">ResidenceKeeper</h3>
+      <img
+        src="../assets/image/residencekeeper_demo.svg"
+        alt="ResidenceKeeper"
+      />
     </a>
     <a
-      href="https://github.com/Psykoxen/GraphMapAnalysis"
+      href="https://github.com/Psykoxen/Twitter-Lhebdo"
       target="_blank"
       class="projects_box"
       id="projects_box_2"
     >
-      <p class="projects_box_uptitle">Java</p>
-      <h3 class="projects_box_title">GraphMap</h3>
-      <img src="../assets/image/graphmap_demo.svg" alt="GraphMap" />
+      <p class="projects_box_uptitle">Python</p>
+      <h3 class="projects_box_title">Bot Twitter</h3>
+      <img src="../assets/image/lhebdo_demo.svg" alt="lhebdo" />
     </a>
     <a
       href="https://github.com/Psykoxen/Rainbow"
@@ -136,23 +140,23 @@ onMounted(() => {
   color: rgba(255, 255, 255, 0.71);
 }
 #projects_box_1 {
-  background-color: #a1a9ff83;
+  background-color: #eba88a;
   grid-column-start: 1;
-  grid-column-end: span 2;
+  grid-column-end: span 1;
   grid-row-start: 1;
-  grid-row-end: span 1;
+  grid-row-end: span 2;
 }
 
 #projects_box_1 img {
   position: absolute;
   top: 30%;
-  width: 70%;
+  width: 100%;
   right: 0;
 }
 
 #projects_box_1 h3,
 #projects_box_1 p {
-  padding-left: 2%;
+  padding-left: 5%;
 }
 
 #projects_box_2 {
@@ -295,6 +299,13 @@ h1 {
 
 .arrow-down span:nth-child(2) {
   animation-delay: +0.2s;
+}
+
+#introduction #subtitle {
+  font-size: 1.2rem;
+  color: rgba(255, 255, 255, 0.81);
+  text-align: center;
+  font-style: italic;
 }
 
 @keyframes scroll {
