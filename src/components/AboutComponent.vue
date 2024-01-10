@@ -134,6 +134,16 @@
   flex-direction: column;
   align-items: center;
 }
+
+@media only screen and (max-width: 768px) {
+  #me div {
+    flex-direction: column;
+  }
+
+  #me div div p {
+    width: 100%;
+  }
+}
 </style>
 
 <template>

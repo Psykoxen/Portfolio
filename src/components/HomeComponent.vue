@@ -234,7 +234,6 @@ onMounted(() => {
 }
 
 #home {
-  height: 88vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -320,6 +319,54 @@ h1 {
   100% {
     opacity: 0;
     transform: translateY(0) rotate(45deg);
+  }
+}
+@media only screen and (min-width: 769px) {
+  #home {
+    height: 88vh;
+  }
+}
+@media only screen and (max-width: 768px) {
+  #projects {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3vh;
+    height: 250vh;
+  }
+
+  .projects_box {
+    width: 100%;
+    height: 40vh;
+  }
+
+  #projects_box_2 .projects_box_uptitle,
+  #projects_box_2 .projects_box_title,
+  #projects_box_3 .projects_box_uptitle,
+  #projects_box_3 .projects_box_title,
+  #projects_box_4 .projects_box_uptitle,
+  #projects_box_4 .projects_box_title,
+  #projects_box_5 .projects_box_uptitle,
+  #projects_box_5 .projects_box_title {
+    text-align: left;
+    padding-left: 5%;
+  }
+
+  .projects_box img {
+    position: absolute;
+
+    bottom: 0;
+    width: 100% !important;
+    right: 0;
+  }
+
+  #introduction {
+    margin: 5%;
+  }
+
+  #introduction h1 {
+    font-size: 7rem;
   }
 }
 </style>
