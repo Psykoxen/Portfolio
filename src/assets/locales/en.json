@@ -60,6 +60,9 @@
   "AboutTimelineFrom": " from ",
   "AboutTimelineTo": " to ",
   "AboutTimelineAt": " at ",
+  "AmbulanceSaintJohn": "Ambulance St John",
+  "AboutStJeanSecourism": "Standard First Aid CPR-C & AED (Intermediate First Aid)",
+  "AboutTimelineCertified": " certified by ",
 
   "MounthJanuary": "January",
   "MounthFebruary": "February",
@@ -91,5 +94,5 @@
   "DegreeMentionGood": "with good mention",
 
   "HomeQuote": "Hi. I'm an IT Student and rescuer of French Red Cross",
-  "SearchingQuote": "Actually searching an internship in IT development for Winter 2024"
+  "SearchingQuote": "Actually searching an internship in IT development for summer 2024"
 }

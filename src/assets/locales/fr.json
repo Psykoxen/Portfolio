@@ -60,6 +60,9 @@
   "AboutTimelineFrom": " de ",
   "AboutTimelineTo": " à ",
   "AboutTimelineAt": " à ",
+  "AmbulanceSaintJohn": "Ambulance St Jean",
+  "AboutStJeanSecourism": "Secourisme Général RCR & DEA-C",
+  "AboutTimelineCertified": " a complété la certification ",
 
   "MounthJanuary": "Janvier",
   "MounthFebruary": "Février",
@@ -91,5 +94,5 @@
   "DegreeMentionGood": "avec mention bien",
 
   "HomeQuote": "Hey. Je suis étudiant en informatique et Secouriste à la Croix-Rouge Française",
-  "SearchingQuote": "En recherche d'un stage en développement informatique pour l'hiver 2024"
+  "SearchingQuote": "En recherche d'un stage en développement informatique pour l'été 2024"
 }
