@@ -1,0 +1,32 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches:
+      - master # ou le nom de votre branche principale
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 18.14.2 # ou la version de Node.js que vous utilisez
+
+      - name: Install Dependencies
+        run: npm install
+
+      - name: Build Nuxt App
+        run: npm run build
+
+      - name: Deploy to GitHub Pages
+        uses: JamesIves/github-pages-deploy-action@4.1.4
+        with:
+          branch: master # branche sur laquelle sera publié le site
+          folder: dist # dossier où se trouve le build de Nuxt
+
