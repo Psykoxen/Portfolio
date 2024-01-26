@@ -1,6 +1,6 @@
 <template>
   <div class="flex flex-col gap-2 w-fit" id="skills">
-    <h2 class="text-5xl font-semibold">Skills</h2>
+    <h2 class="text-5xl font-semibold pb-4">Skills</h2>
     <div class="flex flex-row gap-3">
       <p
         class="rounded-md font-semibold text-center pl-4 pr-4 text-xs button borders"
