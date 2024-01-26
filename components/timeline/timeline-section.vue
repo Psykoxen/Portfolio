@@ -1,6 +1,6 @@
 <template>
   <div class="w-full flex flex-col">
-    <h2 class="text-5xl font-semibold pb-4">About me</h2>
+    <h2 class="text-5xl font-semibold pb-4">A propos</h2>
     <div class="w-full flex flex-row items-center gap-2">
       <div class="w-1/2 h-full flex flex-col items-center gap-2">
         <TimelinePart
@@ -18,7 +18,7 @@
         <button
           class="font-semibold text-2xl bg-[#191e4e] rounded-md p-6 pt-2 pb-2"
         >
-          <a href="/docs/VOILLOT_CV.pdf" target="_blank">My Resume</a>
+          <a href="/docs/VOILLOT_CV.pdf" target="_blank">Mon CV</a>
         </button>
         <TimelinePart
           class="h-full"
@@ -35,15 +35,15 @@ export default {
   data() {
     return {
       education: {
-        title: "Education",
+        title: "Formation",
         experiences: [
           {
             entity: "ETS Montréal",
             url: "https://www.etsmtl.ca/",
-            argument: "Génie logiciel",
+            argument: "Génie logiciel (3.77/4.30)",
             startDate: "2023",
             endDate: "2024",
-            description: "International Exchange",
+            description: "Echange Universitaire",
           },
           {
             entity: "IUT Lyon 1",
@@ -56,7 +56,7 @@ export default {
         ],
       },
       volunteer: {
-        title: "Volunteer",
+        title: "Bénévolat",
         experiences: [
           {
             entity: "Auxiliaire",
@@ -67,7 +67,7 @@ export default {
             description: "",
           },
           {
-            entity: "Directeur Local Ajoint aux Missions de Seocurs",
+            entity: "Directeur Local Adjoint aux Missions de Secours",
             url: "https://www.croix-rouge.fr/",
             argument: "Croix-Rouge Française",
             startDate: "2023",
@@ -96,7 +96,7 @@ export default {
         ],
       },
       work: {
-        title: "Work",
+        title: "Professionnel",
         experiences: [
           {
             entity: "Développeur Salesforce",

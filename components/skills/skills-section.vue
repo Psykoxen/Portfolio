@@ -1,13 +1,13 @@
 <template>
   <div class="flex flex-col gap-2 w-fit" id="skills">
-    <h2 class="text-5xl font-semibold pb-4">Skills</h2>
+    <h2 class="text-5xl font-semibold pb-4">Compétences</h2>
     <div class="flex flex-row gap-3">
       <p
         class="rounded-md font-semibold text-center pl-4 pr-4 text-xs button borders"
         v-on:click="showSkills('Languages')"
         :class="{ 'bg-[#191e4e79]': currentSection === 'Languages' }"
       >
-        Languages
+        Langages
       </p>
       <p
         class="rounded-md font-semibold text-center pl-4 pr-4 text-xs button borders"
@@ -21,21 +21,21 @@
         v-on:click="showSkills('Libraries')"
         :class="{ 'bg-[#191e4e79]': currentSection === 'Libraries' }"
       >
-        Libraries
+        Librairies
       </p>
       <p
         class="rounded-md font-semibold text-center pl-4 pr-4 text-xs button borders"
         v-on:click="showSkills('Database')"
         :class="{ 'bg-[#191e4e79]': currentSection === 'Database' }"
       >
-        Database
+        Base de données
       </p>
       <p
         class="rounded-md font-semibold text-center pl-4 pr-4 text-xs button borders"
         v-on:click="showSkills('Tools')"
         :class="{ 'bg-[#191e4e79]': currentSection === 'Tools' }"
       >
-        Tools
+        Outils
       </p>
     </div>
     <div

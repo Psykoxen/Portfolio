@@ -1,6 +1,6 @@
 <template>
   <div class="flex flex-col gap-2 w-fit" id="projects">
-    <h2 class="text-5xl font-semibold pb-4">Projects</h2>
+    <h2 class="text-5xl font-semibold pb-4">Projets</h2>
     <div class="flex flex-col items-center gap-4">
       <div class="flex flex-row gap-4">
         <ProjectHighlighted
@@ -39,7 +39,7 @@ export default {
       projects: [
         {
           title: "SauverDesVies",
-          alt: "Project aims to democratize first aid skills through an interactive platform.",
+          alt: "Projet visant à démocratiser les compétences en premiers secours grâce à une plateforme interactive.",
           img: "/svg/SauverDesVies.svg",
           url: "https://sauverdesvies.avoillot.com/",
           code: "https://github.com/Psykoxen/SauverDesVies",
@@ -48,7 +48,7 @@ export default {
         },
         {
           title: "GeoRisk",
-          alt: "Powerful web app that lets you find risks in France, with an historic",
+          alt: "Une puissante application web qui vous permet de connaitre les risques d'un lieu en France, avec un historique des catastrophes.",
           img: "/img/Georisk.png",
           url: "https://georisk.avoillot.com/",
           code: "https://github.com/Psykoxen/GeoRisk",
@@ -57,7 +57,7 @@ export default {
         },
         {
           title: "Planify",
-          alt: "An intuitive web application designed to streamline project management, enhancing collaboration and productivity.",
+          alt: "Une application web intuitive conçue pour simplifier la gestion de projets, favorisant la collaboration et la productivité.",
           img: "/svg/Planify.svg",
           url: "",
           code: "https://github.com/Psykoxen/Planify",
@@ -66,7 +66,7 @@ export default {
         },
         {
           title: "ResidenceKeeper",
-          alt: "Residence Keeper, the ultimate ally for community living.",
+          alt: "Residence Keeper, le meilleur allié pour la vie en communauté.",
           img: "",
           url: "",
           code: "https://github.com/Psykoxen/ResidenceKeeper",
@@ -75,7 +75,7 @@ export default {
         },
         {
           title: "Rainbow",
-          alt: "Rainbow is an open-source mobile application tend to be used to consult weather previsions.",
+          alt: "Application mobile open source utilisée pour consulter les prévisions météorologiques.",
           img: "",
           url: "",
           code: "https://github.com/Psykoxen/Rainbow",
@@ -84,7 +84,7 @@ export default {
         },
         {
           title: "Tchoutchou",
-          alt: "Project managing an entire station system throughout France, employee and customer side.",
+          alt: "Outil de gestion ferroviaire pour la gestion d'un réseau et les achats clients.",
           img: "https://github.com/icepick4/TchouTchou/raw/main/web/assets/images/fav.png",
           url: "",
           code: "https://github.com/icepick4/TchouTchou",
@@ -93,7 +93,7 @@ export default {
         },
         {
           title: "PacSida",
-          alt: "Game inspired by the Pacman game for a serious game about the Virus Sida during the NDLI 2022.",
+          alt: "Jeu inspiré du jeu Pac-Man pour un jeu sérieux sur le thème du virus du SIDA lors de la NDLI 2022.",
           img: "https://github.com/icepick4/TchouTchou/raw/main/web/assets/images/fav.png",
           url: "https://ndli.rabec.eu/",
           code: "https://github.com/icepick4/nuit-de-l-info2022",
