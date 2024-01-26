@@ -51,7 +51,7 @@ export default {
             entity: "IUT Lyon 1",
             url: "https://iut.univ-lyon1.fr/formation/offre-de-formations/informatique-villeurbanne-doua",
             argument: "BUT Informatique",
-            startDate: "2023",
+            startDate: "2021",
             endDate: "2024",
             description: "Parcours Réalisation d’applications",
           },
