@@ -1,6 +1,6 @@
 <template>
   <div
-    class="h-48 w-48 flex flex-col items-center rounded-md borders overflow-hidden bg-[#010314] p-3"
+    class="sm:h-48 sm:w-48 h-30 w-80 flex flex-col items-center rounded-md borders overflow-hidden bg-[#010314] p-3"
   >
     <p class="text-left w-full font-bold text-lg">{{ title }}</p>
     <div class="flex-grow">

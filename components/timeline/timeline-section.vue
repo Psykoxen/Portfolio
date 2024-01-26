@@ -1,8 +1,8 @@
 <template>
   <div class="w-full flex flex-col">
     <h2 class="text-5xl font-semibold pb-4">A propos</h2>
-    <div class="w-full flex flex-row items-center gap-2">
-      <div class="w-1/2 h-full flex flex-col items-center gap-2">
+    <div class="w-full flex lg:flex-row flex-col items-center gap-2">
+      <div class="lg:w-1/2 w-full h-full flex flex-col items-center gap-2">
         <TimelinePart
           class="w-full"
           :title="education.title"
@@ -14,7 +14,9 @@
           :experiences="work.experiences"
         />
       </div>
-      <div class="w-1/2 h-full flex flex-col items-center gap-6">
+      <div
+        class="lg:w-1/2 w-full h-full flex lg:flex-col items-center gap-6 flex-col-reverse"
+      >
         <button
           class="font-semibold text-2xl bg-[#191e4e] rounded-md p-6 pt-2 pb-2"
         >

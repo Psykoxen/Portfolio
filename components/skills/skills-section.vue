@@ -1,7 +1,7 @@
 <template>
-  <div class="flex flex-col gap-2 w-fit" id="skills">
-    <h2 class="text-5xl font-semibold pb-4">Compétences</h2>
-    <div class="flex flex-row gap-3">
+  <div class="flex flex-col items-center gap-2 w-fit" id="skills">
+    <h2 class="text-5xl w-full font-semibold pb-4">Compétences</h2>
+    <div class="md:flex grid grid-cols-3 flex-row md:gap-3 gap-1 w-full">
       <p
         class="rounded-md font-semibold text-center pl-4 pr-4 text-xs button borders"
         v-on:click="showSkills('Languages')"
@@ -39,35 +39,35 @@
       </p>
     </div>
     <div
-      class="grid grid-cols-5 gap-2"
+      class="grid 2xl:grid-cols-5 md:grid-cols-3 grid-cols-2 md:gap-2 gap-1"
       :class="{ hidden: currentSection !== 'Languages' }"
       id="Languages"
     >
       <SkillsItem v-for="language in languages" :item="language" />
     </div>
     <div
-      class="grid grid-cols-5 gap-2"
+      class="grid 2xl:grid-cols-5 md:grid-cols-3 grid-cols-2 md:gap-2 gap-1"
       :class="{ hidden: currentSection !== 'Frameworks' }"
       id="Frameworks"
     >
       <SkillsItem v-for="framework in frameworks" :item="framework" />
     </div>
     <div
-      class="grid grid-cols-5 gap-2"
+      class="grid 2xl:grid-cols-5 md:grid-cols-3 grid-cols-2 md:gap-2 gap-1"
       :class="{ hidden: currentSection !== 'Libraries' }"
       id="Libraries"
     >
       <SkillsItem v-for="library in libraries" :item="library" />
     </div>
     <div
-      class="grid grid-cols-5 gap-2"
+      class="grid 2xl:grid-cols-5 md:grid-cols-3 grid-cols-2 md:gap-2 gap-1"
       :class="{ hidden: currentSection !== 'Database' }"
       id="Database"
     >
       <SkillsItem v-for="database in database" :item="database" />
     </div>
     <div
-      class="grid grid-cols-5 gap-2"
+      class="grid 2xl:grid-cols-5 md:grid-cols-3 grid-cols-2 md:gap-2 gap-1"
       :class="{ hidden: currentSection !== 'Tools' }"
       id="Tools"
     >

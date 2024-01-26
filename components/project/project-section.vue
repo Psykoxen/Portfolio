@@ -2,7 +2,7 @@
   <div class="flex flex-col gap-2 w-fit" id="projects">
     <h2 class="text-5xl font-semibold pb-4">Projets</h2>
     <div class="flex flex-col items-center gap-4">
-      <div class="flex flex-row gap-4">
+      <div class="flex md:flex-row flex-col gap-4">
         <ProjectHighlighted
           v-for="(project, index) in projects.slice(0, 3)"
           :key="index"
@@ -15,7 +15,9 @@
           :status="project.status"
         />
       </div>
-      <div class="grid grid-cols-4 gap-4">
+      <div
+        class="grid 2xl:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-2 md:gap-4"
+      >
         <ProjectItem
           v-for="(project, index) in projects.slice(3)"
           :key="index"

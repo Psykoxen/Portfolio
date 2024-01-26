@@ -1,6 +1,6 @@
 <template>
-  <div class="flex flex-col items-center justify-center main">
-    <h1 class="text-9xl font-semibold">Antoine Voillot</h1>
+  <div class="flex flex-col items-center text-center justify-center main">
+    <h1 class="lg:text-9xl text-7xl font-semibold">Antoine Voillot</h1>
     <p id="typed-text" class="text-4xl">
       Hey. Je suis
       <span class="text-[#988eff] font-semibold">{{ typedText }}</span>
