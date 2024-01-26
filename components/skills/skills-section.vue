@@ -18,17 +18,24 @@
       </p>
       <p
         class="rounded-md font-semibold text-center pl-4 pr-4 text-xs button borders"
+        v-on:click="showSkills('Libraries')"
+        :class="{ 'bg-[#191e4e79]': currentSection === 'Libraries' }"
+      >
+        Libraries
+      </p>
+      <p
+        class="rounded-md font-semibold text-center pl-4 pr-4 text-xs button borders"
         v-on:click="showSkills('Database')"
         :class="{ 'bg-[#191e4e79]': currentSection === 'Database' }"
       >
-        Base de données
+        Database
       </p>
       <p
         class="rounded-md font-semibold text-center pl-4 pr-4 text-xs button borders"
         v-on:click="showSkills('Tools')"
         :class="{ 'bg-[#191e4e79]': currentSection === 'Tools' }"
       >
-        Outils
+        Tools
       </p>
     </div>
     <div
@@ -44,6 +51,13 @@
       id="Frameworks"
     >
       <SkillsItem v-for="framework in frameworks" :item="framework" />
+    </div>
+    <div
+      class="grid grid-cols-5 gap-2"
+      :class="{ hidden: currentSection !== 'Libraries' }"
+      id="Libraries"
+    >
+      <SkillsItem v-for="library in libraries" :item="library" />
     </div>
     <div
       class="grid grid-cols-5 gap-2"
@@ -101,13 +115,23 @@ export default {
       frameworks: [
         "Nuxt.js",
         "Vue.js",
-        "React",
+        "Salesforce",
         "Next.js",
         "Node.js",
         "Symfony",
       ],
+      libraries: ["React", "TailwindCSS", "NuxtUI", "Express.js"],
       database: ["Oracle", "MySQL", "MongoDB", "PostgreSQL"],
-      tools: ["VsCode", "Figma", "Github", "Gitlab", "Docker", "Postman"],
+      tools: [
+        "VsCode",
+        "Figma",
+        "Github",
+        "Gitlab",
+        "Docker",
+        "Postman",
+        "Jira",
+        "Power BI",
+      ],
     };
   },
   methods: {
