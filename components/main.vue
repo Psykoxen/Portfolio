@@ -5,10 +5,10 @@
       Hey. Je suis
       <span class="text-[#988eff] font-semibold">{{ typedText }}</span>
     </p>
-    <p>
+    <!-- <p>
       Actuellement en recherche d'un stage en développement informatique pour
       l'été 2024
-    </p>
+    </p> -->
     <a id="arrow-scroll">
       <div class="arrow-down">
         <span></span>
