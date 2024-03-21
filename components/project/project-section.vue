@@ -4,7 +4,7 @@
     <div class="flex flex-col items-center gap-4">
       <div class="flex md:flex-row flex-col gap-4">
         <ProjectHighlighted
-          v-for="(project, index) in projects.slice(0, 3)"
+          v-for="(project, index) in projects.slice(0, 2)"
           :key="index"
           :title="project.title"
           :alt="project.alt"
