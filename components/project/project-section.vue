@@ -19,7 +19,7 @@
         class="grid 2xl:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-2 md:gap-4"
       >
         <ProjectItem
-          v-for="(project, index) in projects.slice(3)"
+          v-for="(project, index) in projects.slice(2)"
           :key="index"
           :title="project.title"
           :alt="project.alt"
