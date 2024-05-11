@@ -69,7 +69,7 @@ export default {
   setup() {
     const typedText = ref("");
     const textArray = [
-      "Postulant pour un master en Gestion des risques et des crises",
+      // "Postulant pour un master en Gestion des risques et des crises",
       "Etudiant en Génie Logicel",
       "Secouriste et Nageur Sauveteur",
     ];
