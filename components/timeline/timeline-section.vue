@@ -101,6 +101,15 @@ export default {
         title: "Professionnel",
         experiences: [
           {
+            entity: "Développeur Fullstack",
+            url: "https://soumissionrenovation.ca/fr/accueil/",
+            argument: "Soumission Rénovation",
+            startDate: "2024",
+            endDate: "",
+            description:
+              "",
+          },
+          {
             entity: "Développeur Salesforce",
             url: "https://anap.fr/s/",
             argument: "ANAP",
