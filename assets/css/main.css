@@ -4,7 +4,7 @@
 
 html {
   scroll-behavior: smooth;
-  font-family: "Segoe UI", "Poppins", sans-serif;
+  font-family: "SfProDisplay", "Segoe UI", "Poppins", sans-serif;
 
   background-position: center center;
   background-repeat: no-repeat;
@@ -156,4 +156,25 @@ html {
   src: url("../fonts/poppins/Poppins-BlackItalic.ttf") format("truetype");
   font-weight: 900;
   font-style: italic;
+}
+
+@font-face {
+  font-family: "SfProDisplay";
+  src: url("../fonts/prodisplay/SFPRODISPLAYBOLD.OTF") format("opentype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SfProDisplay";
+  src: url("../fonts/prodisplay/SFPRODISPLAYMEDIUM.OTF") format("opentype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SfProDisplay";
+  src: url("../fonts/prodisplay/SFPRODISPLAYREGULAR.OTF") format("opentype");
+  font-weight: normal;
+  font-style: normal;
 }
