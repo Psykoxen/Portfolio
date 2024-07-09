@@ -42,7 +42,7 @@ export default {
           {
             entity: "ETS Montréal",
             url: "https://www.etsmtl.ca/",
-            argument: "Génie logiciel (3.77/4.30)",
+            argument: "Génie logiciel (3.52/4.30)",
             startDate: "2023",
             endDate: "2024",
             description: "Echange Universitaire",
@@ -61,12 +61,13 @@ export default {
         title: "Bénévolat",
         experiences: [
           {
-            entity: "Auxiliaire",
+            entity: "Secouriste Général",
             url: "https://asj.ca/fr",
             argument: "Ambulande Saint Jean",
             startDate: "2024",
             endDate: "Now",
-            description: "",
+            description:
+              "Participer aux services de premiers secours lors d’évènements sportifs et culturels. Assurer la sécurité des participants et des spectateurs.",
           },
           {
             entity: "Directeur Local Adjoint aux Missions de Secours",
@@ -107,7 +108,7 @@ export default {
             startDate: "2024",
             endDate: "",
             description:
-              "",
+              "Au sein d'une équipe de développement, participer à la création de nouvelles fonctionnalités pour le site web, à la maintenance des applications et l'amélioration de l'expérience utilisateur.",
           },
           {
             entity: "Développeur Salesforce",
