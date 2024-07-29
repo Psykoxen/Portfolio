@@ -4,7 +4,7 @@
     <div class="flex flex-col items-center gap-4">
       <div class="flex md:flex-row flex-col gap-4">
         <ProjectHighlighted
-          v-for="(project, index) in projects.slice(0, 2)"
+          v-for="(project, index) in projects.slice(0, 3)"
           :key="index"
           :title="project.title"
           :alt="project.alt"
@@ -19,7 +19,7 @@
         class="grid 2xl:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-2 md:gap-4"
       >
         <ProjectItem
-          v-for="(project, index) in projects.slice(2)"
+          v-for="(project, index) in projects.slice(3)"
           :key="index"
           :title="project.title"
           :alt="project.alt"
@@ -47,6 +47,15 @@ export default {
           code: "https://github.com/Psykoxen/SauverDesVies",
           language: "Nuxt.js",
           status: "Development",
+        },
+        {
+          title: "Interventions Montréal",
+          alt: "Application web permettant de visualiser les interventions des services d'urgence à Montréal à partir de l'OpenData",
+          img: "/svg/InterventionsMontreal.svg",
+          url: "https://911-montreal.avoillot.com/",
+          code: "https://github.com/Psykoxen/interventions-montreal",
+          language: "Nuxt.js",
+          status: "Available",
         },
         {
           title: "GeoRisk",
