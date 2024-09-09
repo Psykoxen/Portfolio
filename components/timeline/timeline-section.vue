@@ -61,15 +61,6 @@ export default {
         title: "Bénévolat",
         experiences: [
           {
-            entity: "Secouriste Général",
-            url: "https://asj.ca/fr",
-            argument: "Ambulande Saint Jean",
-            startDate: "2024",
-            endDate: "Now",
-            description:
-              "Participer aux services de premiers secours lors d’évènements sportifs et culturels. Assurer la sécurité des participants et des spectateurs.",
-          },
-          {
             entity: "Directeur Local Adjoint aux Missions de Secours",
             url: "https://www.croix-rouge.fr/",
             argument: "Croix-Rouge Française",
@@ -77,6 +68,15 @@ export default {
             endDate: "Now",
             description:
               "Accompagner les organisateurs dans la mise en place de dispositifs de premiers secours pour leurs évènements. Préparer l’ensemble de la documentation administrative relative aux dispositifs tout en organisant les activités des bénévoles.",
+          },
+          {
+            entity: "Secouriste Général",
+            url: "https://asj.ca/fr",
+            argument: "Ambulande Saint Jean",
+            startDate: "2024",
+            endDate: "",
+            description:
+              "Participer aux services de premiers secours lors d’évènements sportifs et culturels. Assurer la sécurité des participants et des spectateurs.",
           },
           {
             entity: "Chef de Secteur Télécommunication",
