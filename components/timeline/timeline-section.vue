@@ -61,11 +61,20 @@ export default {
         title: "Bénévolat",
         experiences: [
           {
+            entity: "Directeur Local de l'Urgence et du Secourisme",
+            url: "https://www.croix-rouge.fr/",
+            argument: "Croix-Rouge Française",
+            startDate: "2024",
+            endDate: "Now",
+            description:
+              "Accompagné d'une équipe de 5 personnes, assurer la coordination des activités de secours, d'urgence, de formation et de logistique d'une unité locale de la Croix-Rouge.",
+          },
+          {
             entity: "Directeur Local Adjoint aux Missions de Secours",
             url: "https://www.croix-rouge.fr/",
             argument: "Croix-Rouge Française",
             startDate: "2023",
-            endDate: "Now",
+            endDate: "2024",
             description:
               "Accompagner les organisateurs dans la mise en place de dispositifs de premiers secours pour leurs évènements. Préparer l’ensemble de la documentation administrative relative aux dispositifs tout en organisant les activités des bénévoles.",
           },
@@ -102,7 +111,15 @@ export default {
         title: "Professionnel",
         experiences: [
           {
-            entity: "Développeur Fullstack",
+            entity: "Développeur Fullstack Junior (Freelance)",
+            url: "https://alceva.fr/",
+            argument: "Alceva",
+            startDate: "2024",
+            endDate: "Now",
+            description: "",
+          },
+          {
+            entity: "Développeur Fullstack (Stage)",
             url: "https://soumissionrenovation.ca/fr/accueil/",
             argument: "Soumission Rénovation",
             startDate: "2024",
@@ -111,7 +128,7 @@ export default {
               "Au sein d'une équipe de développement, participer à la création de nouvelles fonctionnalités pour le site web, à la maintenance des applications et l'amélioration de l'expérience utilisateur.",
           },
           {
-            entity: "Développeur Salesforce",
+            entity: "Développeur Salesforce (Stage)",
             url: "https://anap.fr/s/",
             argument: "ANAP",
             startDate: "2023",
