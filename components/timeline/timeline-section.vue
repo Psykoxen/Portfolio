@@ -37,7 +37,7 @@ export default {
   data() {
     return {
       education: {
-        title: "Formation",
+        title: "Education",
         experiences: [
           {
             entity: "ETS Montréal",
@@ -45,7 +45,7 @@ export default {
             argument: "Génie logiciel (3.52/4.30)",
             startDate: "2023",
             endDate: "2024",
-            description: "Echange Universitaire",
+            description: "Année d’échange dans une école d’ingénierie appliquée. Approfondissement des compétences en développement logiciel, avec un accent sur l’analyse, l’architecture logicielle et la gestion de projet.",
           },
           {
             entity: "IUT Lyon 1",
@@ -53,12 +53,12 @@ export default {
             argument: "BUT Informatique",
             startDate: "2021",
             endDate: "2024",
-            description: "Parcours Réalisation d’applications",
+            description: "Formation professionnalisante en trois ans axée sur le développement logiciel, la gestion de bases de données, les systèmes et réseaux, et la conduite de projets. Acquisition de compétences techniques (Web, Java, C, SQL) et travail en équipe autour de projets concrets encadrés par des professionnels.",
           },
         ],
       },
       volunteer: {
-        title: "Bénévolat",
+        title: "Engagements",
         experiences: [
           {
             entity: "Directeur Local de l'Urgence et du Secourisme",
@@ -88,6 +88,15 @@ export default {
               "Participer aux services de premiers secours lors d’évènements sportifs et culturels. Assurer la sécurité des participants et des spectateurs.",
           },
           {
+            entity: "Sapeur-Pompier Nautique",
+            url: "https://www.sdis34.fr/",
+            argument: "SDIS 34",
+            startDate: "2021, 2022, 2023",
+            endDate: "",
+            description:
+              "En tant qu’équipier puis chef de poste, encadrement d’une équipe et coordination des interventions. Surveillance de la baignade en espaces naturels sur les plages de l'Hérault. Application des gestes de premiers secours, évaluation des urgences vitales et gestion des opérations de secours. ",
+          },
+          {
             entity: "Chef de Secteur Télécommunication",
             url: "https://www.croix-rouge.fr/",
             argument: "Croix-Rouge Française",
@@ -108,24 +117,24 @@ export default {
         ],
       },
       work: {
-        title: "Professionnel",
+        title: "Experiences Professionelles",
         experiences: [
           {
-            entity: "Développeur Fullstack Junior (Freelance)",
+            entity: "Développeur Fullstack (Freelance)",
             url: "https://alceva.fr/",
             argument: "Alceva",
             startDate: "2024",
             endDate: "Now",
-            description: "",
+            description: "En tant que freelance, développement et optimisation de fonctionnalités sur des architectures existantes ou nouvelles avec Next.js, React, Node.js et TypeScript. Amélioration et refonte d’applications afin de garantir la robustesse et l’adaptabilité des systèmes informatiques. ",
           },
           {
             entity: "Développeur Fullstack (Stage)",
-            url: "https://soumissionrenovation.ca/fr/accueil/",
-            argument: "Soumission Rénovation",
+            url: "https://renoquotes.com/en/home",
+            argument: "Renoquotes",
             startDate: "2024",
             endDate: "",
             description:
-              "Au sein d'une équipe de développement, participer à la création de nouvelles fonctionnalités pour le site web, à la maintenance des applications et l'amélioration de l'expérience utilisateur.",
+              "Au sein d’une équipe de développement, conception et intégration de nouvelles fonctionnalités (sur une architecture SOA avec Next.js/React  pour le frontend et Node.js/TypeScript pour le backend). Contribution à la maintenance des applications, à l’automatisation des processus et à l’amélioration continue de l’expérience utilisateur, en s’appuyant sur des principes tels qu’Atomic Design.",
           },
           {
             entity: "Développeur Salesforce (Stage)",
@@ -134,16 +143,7 @@ export default {
             startDate: "2023",
             endDate: "",
             description:
-              "Développer des composants personnalisés pour le site web, fournir des analyses statistiques sur la consommation des sites, et participer à la gestion de projets. ",
-          },
-          {
-            entity: "Sapeur-Pompier Nautique",
-            url: "https://www.sdis34.fr/",
-            argument: "SDIS 34",
-            startDate: "2021, 2022, 2023",
-            endDate: "",
-            description:
-              "Assurer la surveillance de la baignade en espace naturel, appliquer les premiers secours et évalue les urgences vitales. Encadrer les opérations de secours et une équipe.",
+              "Au sein du Département Diffusion et Appropriation, participation à l’amélioration du site web Salesforce à l’aide de composants personnalisés. Tout en apportant un soutien statistique sur la consommation des différents sites web et outils. Prendre part à la gestion de projets et au suivi de la tierce maintenance applicative.",
           },
           {
             entity: "Nageur Sauveteur",
