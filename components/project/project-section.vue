@@ -40,12 +40,12 @@ export default {
     return {
       projects: [
         {
-          title: "SauverDesVies",
-          alt: "Projet visant à démocratiser les compétences en premiers secours grâce à une plateforme interactive.",
-          img: "/svg/SauverDesVies.svg",
-          url: "https://sauverdesvies.avoillot.com/",
-          code: "https://github.com/Psykoxen/SauverDesVies",
-          language: "Nuxt.js",
+          title: "Stormy",
+          alt: "Outil permettant l'envoi de notifications de prévisions météorologiques et risques incendie",
+          img: "/svg/Stormy.svg",
+          url: "https://stormy.alceva.fr/",
+          code: "https://github.com/Psykoxen/Stormy",
+          language: "Node.js",
           status: "Development",
         },
         {
@@ -76,12 +76,12 @@ export default {
         //  status: "Development",
         // },
         {
-          title: "ResidenceKeeper",
-          alt: "Residence Keeper, le meilleur allié pour la vie en communauté.",
+          title: "SauverDesVies",
+          alt: "Plateforme interactive sur les gestes de premiers secours (En cours de re-développement)",
           img: "",
-          url: "",
-          code: "https://github.com/Psykoxen/ResidenceKeeper",
-          language: "Flutter",
+          url: "https://sauverdesvies.avoillot.com/",
+          code: "https://github.com/Psykoxen/SauverDesVies",
+          language: "Nuxt.js",
           status: "Development",
         },
         {
@@ -106,7 +106,7 @@ export default {
           title: "PacSida",
           alt: "Jeu inspiré du jeu Pac-Man pour un jeu sérieux sur le thème du virus du SIDA lors de la NDLI 2022.",
           img: "https://github.com/icepick4/TchouTchou/raw/main/web/assets/images/fav.png",
-          url: "https://ndli.rabec.eu/",
+          // url: "https://ndli.rabec.eu/",
           code: "https://github.com/icepick4/nuit-de-l-info2022",
           language: "Javascript",
           status: "Available",

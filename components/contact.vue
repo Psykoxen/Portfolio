@@ -3,20 +3,20 @@
     :class="{ shake: shakeEffect }"
     class="fixed top-1/2 right-6 flex flex-col items-center borders p-2 rounded-full gap-2"
   >
-    <a href="https://www.linkedin.com/in/antoine-voillot/"
+    <a href="https://www.linkedin.com/in/antoine-voillot/" target="_blank"
       ><img class="h-8 w-8" src="/svg/Linkedin.svg"
     /></a>
-    <a href="https://github.com/Psykoxen"
+    <a href="https://github.com/Psykoxen" target="_blank"
       ><img class="h-8 w-8" src="/svg/Github.svg"
     /></a>
-    <a href="mailto:antoine.voillot.1@ens.etsmtl.ca"
+    <a href="mailto:antoine.voillot@yahoo.fr" target="_blank"
       ><img class="h-8 w-8" src="/svg/Mail.svg"
     /></a>
   </div>
 </template>
 
 <script setup>
-import { ref, onMounted } from "vue";
+import { onMounted, ref } from "vue";
 
 const shakeEffect = ref(false);
 

@@ -63,13 +63,13 @@
 </style>
 
 <script>
-import { ref, onMounted } from "vue";
+import { onMounted, ref } from "vue";
 
 export default {
   setup() {
     const typedText = ref("");
     const textArray = [
-      "Développeur Web FullStack",
+      "Développeur & Intégrateur de Solutions Logicielles",
       "Secouriste et Nageur Sauveteur",
     ];
     let index = 0;
